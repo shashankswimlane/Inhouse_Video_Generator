@@ -1,0 +1,747 @@
+=== GROQ QWEN MULTIMODAL BATCHED VISION REPORT ===
+Video File: video_20261006_171656_instagram_20261005_133052_0b35ca.mp4
+Video Duration: 19.96 seconds
+Model: qwen/qwen3.8-27b
+Total Keyframes Sampled: 19
+Batches Processed (3 images/batch): 10
+
+=== USER PROMPT ===
+You are a professional video director and cinematographer specializing in 
+luxury jewellery commercials. I am uploading a jewellery video. Your job is to 
+reverse-engineer it into a COMPLETE, REPRODUCIBLE VIDEO GENERATION PROMPT that 
+another AI (like Sora, Veo, Runway, Kling) could use to recreate a nearly 
+identical video.
+
+Analyze the video frame-by-frame and output the following sections:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. VIDEO OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Total duration (seconds)
+- Total number of distinct shots/clips edited together
+- Overall style (cinematic, product demo, macro, lifestyle, etc.)
+- Aspect ratio and resolution estimate
+- Frame rate feel (smooth/slow-mo/normal)
+- Overall mood & color grade (warm, cool, high-contrast, pastel, etc.)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. SHOT-BY-SHOT BREAKDOWN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+For EACH shot (numbered), give me:
+
+- Shot # and timestamp (start–end)
+- Duration of shot
+- Camera angle: (top-down / 45° hero angle / eye-level / macro close-up / 
+  profile / low angle / rotating turntable / POV)
+- Camera movement: (static / slow pan left-right / orbit / dolly-in / 
+  dolly-out / tilt-up / tilt-down / zoom / handheld)
+- Camera distance: (extreme macro / close-up / medium / full product)
+- Lens feel: (macro 100mm / 50mm / wide / telephoto compression)
+- Lighting setup: (softbox overhead / rim light / spotlight / natural 
+  window light / ring light / studio 3-point / hard directional)
+- Background: (black velvet / white seamless / marble / silk fabric / 
+  model skin / gradient / reflective surface)
+- Focus: (shallow DOF with bokeh / deep focus / rack focus)
+- Subject action: (static product / slow rotation / model wearing / 
+  hand adjusting / light glinting / sparkle effect)
+- Post-effects: (slow motion / speed ramp / glint/flare overlay / 
+  particles / reflection / text overlay)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. JEWELLERY DETAILS CAPTURED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Type of jewellery (ring, necklace, earrings, bracelet, watch, etc.)
+- Metal color/finish (yellow gold, rose gold, white gold, platinum, silver)
+- Gemstones (type, cut, color, size, arrangement)
+- Design details (filigree, halo, solitaire, pavé, engraving)
+- Key features the camera emphasizes (sparkle, clasp, engraving, setting)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. EDITING STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- How many clips were stitched into the final video
+- Transition types between shots (hard cut / fade / whip pan / match cut)
+- Pacing (fast cuts / slow luxurious cuts)
+- Music/sound vibe (if inferable: orchestral, ambient, ASMR sparkle)
+- Any text overlays, logos, or CTAs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. FINAL RECREATION PROMPT (THE MOST IMPORTANT PART)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Now write ONE master prompt (200–400 words) that I can paste into a video 
+generation AI to recreate this video. It must include:
+- Subject description (jewellery type, metal, stones, finish)
+- Environment & background
+- Lighting style
+- Camera angle, lens, and movement per shot
+- Number of shots and how they're edited together
+- Duration and pacing
+- Color grade and mood
+- Any effects (sparkle, glint, slow-mo)
+
+Format the final prompt as clean, comma-separated cinematic directions.You are a professional video director and cinematographer specializing in 
+luxury jewellery commercials. I am uploading a jewellery video. Your job is to 
+reverse-engineer it into a COMPLETE, REPRODUCIBLE VIDEO GENERATION PROMPT that 
+another AI (like Sora, Veo, Runway, Kling) could use to recreate a nearly 
+identical video.
+
+Analyze the video frame-by-frame and output the following sections:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. VIDEO OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Total duration (seconds)
+- Total number of distinct shots/clips edited together
+- Overall style (cinematic, product demo, macro, lifestyle, etc.)
+- Aspect ratio and resolution estimate
+- Frame rate feel (smooth/slow-mo/normal)
+- Overall mood & color grade (warm, cool, high-contrast, pastel, etc.)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. SHOT-BY-SHOT BREAKDOWN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+For EACH shot (numbered), give me:
+
+- Shot # and timestamp (start–end)
+- Duration of shot
+- Camera angle: (top-down / 45° hero angle / eye-level / macro close-up / 
+  profile / low angle / rotating turntable / POV)
+- Camera movement: (static / slow pan left-right / orbit / dolly-in / 
+  dolly-out / tilt-up / tilt-down / zoom / handheld)
+- Camera distance: (extreme macro / close-up / medium / full product)
+- Lens feel: (macro 100mm / 50mm / wide / telephoto compression)
+- Lighting setup: (softbox overhead / rim light / spotlight / natural 
+  window light / ring light / studio 3-point / hard directional)
+- Background: (black velvet / white seamless / marble / silk fabric / 
+  model skin / gradient / reflective surface)
+- Focus: (shallow DOF with bokeh / deep focus / rack focus)
+- Subject action: (static product / slow rotation / model wearing / 
+  hand adjusting / light glinting / sparkle effect)
+- Post-effects: (slow motion / speed ramp / glint/flare overlay / 
+  particles / reflection / text overlay)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. JEWELLERY DETAILS CAPTURED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Type of jewellery (ring, necklace, earrings, bracelet, watch, etc.)
+- Metal color/finish (yellow gold, rose gold, white gold, platinum, silver)
+- Gemstones (type, cut, color, size, arrangement)
+- Design details (filigree, halo, solitaire, pavé, engraving)
+- Key features the camera emphasizes (sparkle, clasp, engraving, setting)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. EDITING STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- How many clips were stitched into the final video
+- Transition types between shots (hard cut / fade / whip pan / match cut)
+- Pacing (fast cuts / slow luxurious cuts)
+- Music/sound vibe (if inferable: orchestral, ambient, ASMR sparkle)
+- Any text overlays, logos, or CTAs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. FINAL RECREATION PROMPT (THE MOST IMPORTANT PART)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Now write ONE master prompt (200–400 words) that I can paste into a video 
+generation AI to recreate this video. It must include:
+- Subject description (jewellery type, metal, stones, finish)
+- Environment & background
+- Lighting style
+- Camera angle, lens, and movement per shot
+- Number of shots and how they're edited together
+- Duration and pacing
+- Color grade and mood
+- Any effects (sparkle, glint, slow-mo)
+
+Format the final prompt as clean, comma-separated cinematic directions.
+
+=== UNIFIED VISION REPORT ===
+## 🎬 Shot Segment: Keyframes #1 to #2
+
+Based on the visual evidence from the two keyframes, here is the comprehensive cinematography and production breakdown.
+
+### 1. VIDEO OVERVIEW
+*   **Total duration:** ~20 seconds (based on the timestamp 19.96s).
+*   **Total number of distinct shots/clips:** The first 2 seconds appear to be a single continuous shot with a text overlay.
+*   **Overall style:** Cinematic Lifestyle / Bridal Editorial. This is a "lifestyle" commercial where the jewelry is showcased on a model in a natural setting rather than a sterile studio.
+*   **Aspect ratio:** 1:1 (Square) — likely formatted for Instagram or social media feeds.
+*   **Frame rate feel:** Smooth, cinematic motion (likely 24fps or 30fps).
+*   **Overall mood & color grade:** Warm, earthy, and vibrant. The grade emphasizes the gold tones of the jewelry and the yellow of the saree against a soft, desaturated green background.
+
+### 2. SHOT-BY-SHOT BREAKDOWN (Batch 1: 0.0s - 1.0s)
+
+**Shot #1: The Bridal Profile**
+*   **Timestamp:** 0.0s – 1.0s
+*   **Duration:** 1.0s
+*   **Camera angle:** Eye-level, 3/4 Profile view (Model facing left).
+*   **Camera movement:** Static or extremely subtle handheld drift (very stable).
+*   **Camera distance:** Medium Close-Up (MCU). Frames from the mid-torso up to the top of the head.
+*   **Lens feel:** 50mm to 85mm portrait lens.
+*   **Lighting setup:** Natural, soft daylight. The light is diffused (overcast or open shade), creating soft shadows on the face and highlighting the metallic sheen of the jewelry without harsh glare.
+*   **Background:** Out-of-focus greenery (trees/foliage).
+*   **Focus:** Shallow Depth of Field (DOF). The model's face and jewelry are tack-sharp; the background is a creamy green bokeh.
+*   **Subject action:** The model is smiling, looking off-camera to the left. Her hand is raised slightly, resting near her waist, displaying the ring and bangles.
+*   **Post-effects:**
+    *   **0.0s:** No text.
+    *   **1.0s:** Elegant white serif text fades in: *"Scenes From A Wedding Crafted By Anus"*.
+    *   **Logo:** "Tanishq - A TATA Product" logo is static in the top right corner.
+
+### 3. JEWELLERY DETAILS CAPTURED
+*   **Type of jewellery:** Full bridal set (Headpiece, Earrings, Necklaces, Bracelets, Ring).
+*   **Metal color/finish:** Yellow Gold (Antique finish).
+*   **Gemstones:**
+    *   **Necklaces:** Heavy use of white stones (diamonds/kundan) and a central pendant featuring a large **pink stone** (likely Ruby or Pink Sapphire) surrounded by white stones.
+    *   **Earrings:** Large Jhumkas with intricate gold detailing and white stone accents.
+    *   **Headpiece:** Maang Tikka with a central stone and a side chain (Jodi) with a red tassel.
+*   **Design details:**
+    *   **Necklace:** Multi-strand "Choker" style with heavy draping.
+    *   **Bangles:** A mix of gold bangles and a single emerald green bangle.
+    *   **Ring:** Large cocktail ring with a white stone cluster.
+*   **Key features emphasized:** The sheer volume and weight of the gold, the intricate craftsmanship of the filigree, and the color pop of the pink stone and green bangle.
+
+### 4. EDITING STRUCTURE
+*   **Clips:** The opening is a single, unbroken shot.
+*   **Transitions:** N/A for this segment.
+*   **Pacing:** Slow and luxurious. The camera lingers on the details.
+*   **Music/Sound vibe:** Likely soft, traditional Indian instrumental or a gentle orchestral swell to match the "wedding" theme.
+*   **Text Overlays:**
+    *   **Top Right:** Brand Logo (Tanishq).
+    *   **Center:** Title Card text appearing at 1.0s.
+
+### 5. FINAL RECREATION PROMPT
+
+**Copy and paste the following into your AI video generator:**
+
+> **Cinematic bridal
+
+---
+
+## 🎬 Shot Segment: Keyframes #3 to #4
+
+Based on the visual evidence provided in the keyframes, here is the reverse-engineered video analysis and recreation prompt.
+
+### 1. VIDEO OVERVIEW
+*   **Total Duration:** Approximately 20 seconds (based on the timestamp 19.96s).
+*   **Total Number of Distinct Shots:** The video appears to be a montage. Based on the keyframes, there are at least 2 distinct setups shown here (a medium profile shot and a close-up detail shot), likely part of a sequence of 4-5 shots total.
+*   **Overall Style:** Cinematic Lifestyle / Editorial. This is a "behind-the-scenes" or "lookbook" style video showcasing bridal wear in a natural setting.
+*   **Aspect Ratio:** 1:1 (Square).
+*   **Resolution Estimate:** 1080x1080 (Standard social media resolution).
+*   **Frame Rate Feel:** Smooth, likely shot at 24fps or 30fps with a slight slow-motion effect applied to the movement.
+*   **Mood & Color Grade:** Warm, earthy, and romantic. The grade emphasizes the gold tones of the jewelry against the soft greens of the background and the yellow of the saree.
+
+### 2. SHOT-BY-SHOT BREAKDOWN
+
+**Shot #1 (Keyframe #3)**
+*   **Timestamp:** 2.1s
+*   **Camera Angle:** Eye-level, 3/4 profile view.
+*   **Camera Movement:** Static or very subtle handheld drift.
+*   **Camera Distance:** Medium Close-Up (waist up).
+*   **Lens Feel:** 50mm or 85mm (natural perspective, slight compression).
+*   **Lighting Setup:** Natural, diffused daylight (overcast or open shade). Soft shadows on the face.
+*   **Background:** Out-of-focus greenery (trees/foliage), creating a soft bokeh.
+*   **Focus:** Deep focus on the model's face and jewelry.
+*   **Subject Action:** The model is smiling gently, looking slightly off-camera to the left. Her hands are clasped in front of her, displaying the bangles and rings.
+*   **Post-effects:** Text overlay: "Scenes From A Wedding Crafted By Anushka" in a mix of serif and script fonts. Logo "TANISHQ" in the top right.
+
+**Shot #2 (Keyframe #4)**
+*   **Timestamp:** 3.1s
+*   **Camera Angle:** High angle looking down slightly, close-up.
+*   **Camera Movement:** Static.
+*   **Camera Distance:** Close-Up (hands and lower face).
+*   **Lens Feel:** Macro or 100mm (emphasizing texture and detail).
+*   **Lighting Setup:** Natural soft light, highlighting the sparkle of the stones.
+*   **Background:** Blurred skin tones and yellow fabric.
+*   **Focus:** Extremely shallow depth of field. Focus is locked on the rings and the henna (mehndi) on the hands.
+*   **Subject Action:** The model is adjusting her large jhumka earring with her right hand. The left hand is raised, showcasing a large cocktail ring.
+*   **Post-effects:** Same text overlay as Shot #1.
+
+### 3. JEWELLERY DETAILS CAPTURED
+*   **Type:** Full bridal set (Headpiece, Earrings, Necklaces, Bangles, Rings).
+*   **Metal:** 22K Yellow Gold (Tanishq standard).
+*   **Gemstones:**
+    *   **Earrings:** Large Jhumkas with gold beads and a central stone (possibly pearl or white stone).
+      *   **Headpiece:** Maang Tikka with a central pendant and a thin chain (Matha Patti) across the forehead.
+    *   **Rings:** Large cocktail rings. One features a green stone (emerald) surrounded by a halo of small white stones (diamonds). Another features a white stone (pearl/diamond).
+    *   **Bangles:** A mix of solid gold bangles and green glass bangles (traditional bridal style).
+*   **Design Details:** Heavy, traditional Indian bridal aesthetic. Intricate filigree work on the earrings and headpiece.
+*   **Key Features:** The contrast between the bright gold and the green emeralds/glass bangles. The interaction of the jewelry with the henna on the hands.
+
+### 4. EDITING STRUCTURE
+*   **Clips:** Multiple clips stitched together.
+*   **Transitions:** Hard cuts or quick diss
+
+---
+
+## 🎬 Shot Segment: Keyframes #5 to #6
+
+Based on the visual evidence provided in Keyframes #5 and #6, here is the reverse-engineered cinematography and production breakdown for this segment of the video.
+
+**Note:** As this is Batch 3/10, the "Video Overview" and "Editing Structure" sections are extrapolated based on the high-end commercial style evident in these specific frames.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. VIDEO OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*   **Total duration:** ~20 seconds (Total video length).
+*   **Total number of distinct shots:** Multiple (This batch covers shots 3-4 of the sequence).
+*   **Overall style:** High-end Lifestyle / Bridal Jewelry Commercial.
+*   **Aspect ratio:** 1:1 (Square) — Optimized for Instagram/Social Media.
+*   **Frame rate feel:** Smooth, cinematic 24fps or 30fps.
+*   **Overall mood & color grade:** Warm, saturated, and vibrant. The grade emphasizes the richness of the yellow gold and the deep emerald green of the bangles, with soft, diffused natural lighting.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. SHOT-BY-SHOT BREAKDOWN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Shot # (Keyframe 5)**
+*   **Timestamp:** 4.2s
+*   **Camera angle:** Close-up, slightly high angle (looking down at the hands).
+*   **Camera movement:** Static or extremely slow, subtle drift.
+*   **Camera distance:** Close-up (Focus on hands and wrist).
+*   **Lens feel:** 50mm or 85mm (Compressed background, natural perspective).
+*   **Lighting setup:** Natural, soft daylight (likely outdoor or near a large window). Soft shadows.
+*   **Background:** Out-of-focus (Bokeh) showing hints of green foliage and the model's yellow/magenta clothing.
+*   **Focus:** Shallow Depth of Field. The focus is sharp on the ring and the top bangles, with the background melting away.
+*   **Subject action:** Two hands clasped together. The subject is wearing a stack of heavy gold bangles and emerald green glass bangles.
+*   **Post-effects:** "Tanishq" logo watermark in the top right corner.
+
+**Shot # (Keyframe 6)**
+*   **Timestamp:** 5.2s
+*   **Camera angle:** Profile / 3/4 Profile close-up.
+*   **Camera movement:** Static.
+*   **Camera distance:** Medium Close-up (Face and hands).
+*   **Lens feel:** 85mm Portrait lens (Flattering compression on the face).
+*   **Lighting setup:** Soft, diffused daylight. Catchlights visible in the eyes.
+*   **Background:** Neutral, blurred beige/cream wall or fabric.
+*   **Focus:** Rack focus or split focus. The model's profile (nose/lips) is sharp, and the hand holding the ring is also sharp.
+*   **Subject action:** The model is looking down at her hand, holding a large, ornate ring up to inspect it. She is wearing a Maang Tikka (headpiece) with a red tassel.
+*   **Post-effects:** "Tanishq" logo watermark in the top right corner.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. JEWELLERY DETAILS CAPTURED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*   **Type of jewellery:**
+    *   **Bangles:** A heavy stack of textured yellow gold bangles (knurled/pearl finish) mixed with solid emerald green glass bangles.
+    *   **Ring 1 (Shot 5):** A large, circular "Kundan" or "Polki" style ring. It features a central yellow stone (possibly citrine or yellow diamond) surrounded by a halo of white pearls or uncut diamonds.
+    *   **Ring 2 (Shot 6):** A large, oval-shaped ring with a central green stone (emerald) surrounded by a halo of red stones (rubies) and gold bead detailing.
+    *   **Headpiece:** A gold Maang Tikka with a red tassel.
+*   **Metal color/finish:** 22K Yellow Gold (High shine, warm tone).
+*   **Gemstones:** Emerald green, Ruby red, White (Pearls/Diamonds), Yellow.
+*   **Design details:** Traditional Indian bridal aesthetics. Heavy, ornate, bead-worked gold settings.
+*   **Key features emphasized:** The weight of the gold, the color contrast between the green bangles and gold, and the intricate bead-work on the rings.
+
+━━━━━━━━
+
+---
+
+## 🎬 Shot Segment: Keyframes #7 to #8
+
+Based on the visual evidence from Keyframes #7 and #8, here is the detailed cinematographic breakdown and reverse-engineered prompt.
+
+### 1. VIDEO OVERVIEW
+*   **Total duration:** ~20 seconds (based on timestamp data).
+*   **Total number of distinct shots:** This batch covers a transition from a macro detail shot to a medium lifestyle shot.
+*   **Overall style:** High-end Indian bridal lifestyle commercial. It blends product close-ups with emotional, candid moments of a bride.
+*   **Aspect ratio:** 1:1 (Square) or 4:5 (Portrait), typical for Instagram Reels.
+*   **Frame rate feel:** Smooth, cinematic 24fps or 30fps. The movement is natural, not overly slow-motion, capturing real-time interaction.
+*   **Overall mood & color grade:** Warm, vibrant, and celebratory. The grade emphasizes the richness of the yellow silk, the gold jewelry, and the natural skin tones. High saturation on the jewelry, soft contrast on the skin.
+
+### 2. SHOT-BY-SHOT BREAKDOWN
+
+**Shot #7 (Keyframe #7)**
+*   **Timestamp:** 6.2s
+*   **Camera angle:** Close-up / Macro.
+*   **Camera movement:** Static or very subtle handheld drift.
+*   **Camera distance:** Extreme Close-Up (ECU) on the hand.
+*   **Lens feel:** 85mm or 100mm Macro.
+*   **Lighting setup:** Natural daylight, soft and diffused. The light catches the facets of the gemstones.
+*   **Background:** Blurred (Bokeh). Hints of yellow fabric and the white flower garland.
+*   **Focus:** Razor-sharp on the ring and the henna (mehndi) on the fingers.
+*   **Subject action:** The bride's hand is gently holding a white jasmine flower garland (Jaimala). The fingers are posed to display the ring.
+*   **Post-effects:** "Tanishq" logo overlay in the top right corner.
+
+**Shot #8 (Keyframe #8)**
+*   **Timestamp:** 7.3s
+*   **Camera angle:** Medium Shot (Waist-up).
+*   **Camera movement:** Static or slight pan to follow the subject.
+*   **Camera distance:** Medium.
+*   **Lens feel:** 50mm or 85mm portrait lens.
+*   **Lighting setup:** Bright, outdoor natural light. Soft shadows.
+*   **Background:** Out-of-focus architectural elements (arches/walls), suggesting a palace or heritage hotel setting.
+*   **Focus:** Deep focus on the bride's face and jewelry.
+*   **Subject action:** The bride is smiling, looking down at the garland she is holding. She is wearing a full bridal ensemble (maang tikka, earrings, necklaces, bangles).
+*   **Post-effects:** "Tanishq" logo overlay.
+
+### 3. JEWELLERY DETAILS CAPTURED
+*   **Type of jewellery:**
+    *   **Ring (Key Feature):** A large, vintage-style cocktail ring. It features a central emerald (green) surrounded by a halo of rubies (red) and a border of yellow gold beads (granulation style).
+    *   **Bangles:** A heavy stack of gold bangles mixed with emerald green glass bangles.
+    *   **Necklace:** A heavy, multi-layered gold necklace (Choker/Neckpiece) visible in the medium shot.
+    *   **Headwear:** A gold Maang Tikka with a red tassel (Maang Patti).
+    *   **Earrings:** Traditional gold Jhumkas.
+*   **Metal color/finish:** Polished Yellow Gold (22k/24k look).
+*   **Gemstones:** Emerald (green), Ruby (red), and possibly diamonds/white stones in the bangles.
+*   **Design details:** The ring uses a "granulation" or beaded gold texture, which is a hallmark of traditional Indian craftsmanship. The bangles feature intricate filigree.
+
+### 4. EDITING STRUCTURE
+*   **Transitions:** Hard cut from the macro detail (Shot 7) to the medium context shot (Shot 8). This is a classic "detail to reveal" editing technique.
+*   **Pacing:** Moderate. It lingers on the jewelry detail before pulling back to show the emotion.
+*   **Music vibe (Inferred):** Likely a soft, romantic Indian instrumental or a gentle Bollywood track.
+*   **Text Overlays:**
+
+---
+
+## 🎬 Shot Segment: Keyframes #9 to #10
+
+Based on the visual evidence from the provided keyframes, here is the reverse-engineered breakdown and recreation prompt for this luxury jewelry video segment.
+
+### 1. VIDEO OVERVIEW
+*   **Total duration:** 19.96 seconds (Total video length).
+*   **Total number of distinct shots/clips:** This batch covers a continuous sequence, likely part of a larger montage. The keyframes show a progression from a medium shot to a close-up.
+*   **Overall style:** Cinematic Lifestyle / Bridal Editorial. The focus is on the "look" and the emotion of the bride, rather than just static product shots.
+*   **Aspect ratio:** 1:1 (Square), typical for Instagram Reels or social media feeds.
+*   **Frame rate feel:** Smooth, likely 24fps or 30fps, capturing natural movement.
+*   **Overall mood & color grade:** Warm, vibrant, and high-saturation. The grade emphasizes the golden tones of the jewelry and the yellow of the saree, with soft, diffused daylight.
+
+### 2. SHOT-BY-SHOT BREAKDOWN (Batch 5)
+
+**Shot #9 (Keyframe #9)**
+*   **Timestamp:** 8.3s
+*   **Camera angle:** 45° Hero Angle / Medium Close-Up (MCU).
+*   **Camera movement:** Static or very subtle handheld drift.
+*   **Camera distance:** Medium Close-Up (Chest up).
+*   **Lens feel:** 50mm or 85mm (Portrait lens).
+*   **Lighting setup:** Natural, diffused daylight (overcast or open shade). Soft shadows.
+*   **Background:** Out-of-focus outdoor setting (bokeh), suggesting a garden or palace courtyard.
+*   **Focus:** Sharp on the model's face and jewelry; background is blurred.
+*   **Subject action:** The model is laughing joyfully, head turned slightly to her left.
+*   **Post-effects:** "TANISHQ" logo watermark in top right.
+
+**Shot #10 (Keyframe #10)**
+*   **Timestamp:** 9.4s
+*   **Camera angle:** Close-Up (CU) / Profile.
+*   **Camera movement:** Dolly-in or Zoom-in (transitioning from the previous shot).
+*   **Camera distance:** Close-Up (Face and neck focus).
+*   **Lens feel:** 85mm or 100mm Macro (emphasizing texture).
+*   **Lighting setup:** Same natural daylight, highlighting the metallic sheen of the gold.
+*   **Background:** Heavily blurred (shallow depth of field).
+*   **Focus:** Rack focus or sharp focus on the maang tikka and earrings.
+*   **Subject action:** The model's expression shifts from a laugh to a soft, confident smile, looking off-camera.
+*   **Post-effects:** "TANISHQ" logo watermark.
+
+### 3. JEWELLERY DETAILS CAPTURED
+*   **Type of jewellery:** Bridal Set (Maang Tikka, Earrings, Choker, Long Necklace).
+*   **Metal color/finish:** Polished Yellow Gold.
+*   **Gemstones:**
+    *   **Maang Tikka:** Gold beads with a central pendant, accented with red tassels (kinkhwab).
+    *   **Earrings:** Jhumka style with a large pearl drop and gold filigree.
+    *   **Necklace:** Multi-strand design featuring gold beads, pearl accents, and a central pendant with a pinkish/red stone (possibly ruby or garnet).
+*   **Design details:** Heavy, traditional Indian bridal aesthetic. Intricate beadwork and filigree work.
+*   **Key features emphasized:** The drape of the long necklace, the movement of the tassel on the headpiece, and the sparkle of the gold beads.
+
+### 4. EDITING STRUCTURE
+*   **Clips stitched:** This batch represents a continuous take or a seamless cut.
+*   **Transition types:** Hard cut or match cut (if separate clips) / Continuous movement.
+*   **Pacing:** Slow and luxurious. The camera lingers on the details.
+*   **Music/sound vibe:** Likely upbeat, traditional Indian instrumental or a soft, romantic Bollywood track.
+*   **Text overlays:** "TANISHQ" logo with a stylized 'T' icon in the upper right corner.
+
+### 5. FINAL RECREATION PROMPT
+
+**Master Prompt for AI Video Generation:**
+
+> Cinematic bridal jewelry commercial, 4k resolution, square
+
+---
+
+## 🎬 Shot Segment: Keyframes #11 to #12
+
+Based on the visual evidence from Keyframes #11 and #12, here is the reverse-engineered breakdown for the video generation prompt.
+
+### 1. VIDEO OVERVIEW
+*   **Total duration:** ~20 seconds (based on timestamp 19.96s).
+*   **Total number of distinct shots:** Likely 4-5 shots (close-up detail, medium shot, full body, etc.).
+*   **Overall style:** Luxury bridal lifestyle, cinematic commercial, high-fashion.
+*   **Aspect ratio:** 1:1 (Square) - standard for Instagram Reels/Posts.
+*   **Frame rate feel:** Smooth, cinematic, likely 24fps or 30fps with slow-motion segments.
+*   **Overall mood & color grade:** Warm, golden, vibrant, high-saturation. The lighting is bright and airy, emphasizing the yellow gold and red accents.
+
+### 2. SHOT-BY-SHOT BREAKDOWN (Focus on Keyframes 11 & 12)
+
+**Shot # [Current Segment] (Keyframe #11)**
+*   **Timestamp:** 10.4s
+*   **Camera angle:** Extreme Close-Up (ECU), profile view of the model's face.
+*   **Camera movement:** Static or very slow subtle drift.
+*   **Camera distance:** Extreme close-up on the ear and neck.
+*   **Lens feel:** 85mm-100mm Portrait lens (shallow depth of field).
+*   **Lighting setup:** Natural daylight, soft and diffused.
+*   **Background:** Heavily blurred (bokeh), neutral tones.
+*   **Focus:** Razor-sharp on the earring and necklace detail; background and front hair are soft.
+*   **Subject action:** Model is smiling, head turned slightly to the side.
+*   **Post-effects:** "TANISHQ" logo overlay in top right.
+
+**Shot # [Next Segment] (Keyframe #12)**
+*   **Timestamp:** 11.4s
+*   **Camera angle:** Medium Close-Up (MCU), eye-level, frontal.
+*   **Camera movement:** Static.
+*   **Camera distance:** Chest-up framing.
+*   **Lens feel:** 50mm-85mm.
+*   **Lighting setup:** Bright, even natural light.
+*   **Background:** Out-of-focus architectural elements (likely a palace or heritage site).
+*   **Focus:** Deep focus on the jewelry set (headpiece, earrings, necklaces).
+*   **Subject action:** Model looking directly at the camera, smiling warmly, holding white flowers.
+*   **Post-effects:** "TANISHQ" logo overlay.
+
+### 3. JEWELLERY DETAILS CAPTURED
+*   **Type of jewellery:** Complete Bridal Set (Maang Tikka/Headpiece, Jhumka Earrings, Choker, Long Layered Necklaces).
+*   **Metal color/finish:** Polished Yellow Gold.
+*   **Gemstones:**
+    *   **Red:** Rubies or Red Zircon (used in the center of the choker and maang tikka).
+    *   **White:** Pearls (used in the choker and necklace strands).
+    *   **Pink:** Pink Zircon or Rose Quartz (used in the long necklace pendant).
+*   **Design details:**
+    *   **Earrings:** Large Jhumkas with intricate filigree, pearl drop, and distinct **red tassel** accents.
+    *   **Necklace:** Multi-strand design featuring a mix of pearls, gold beads, and a large central pendant with a pink stone.
+    *   **Headpiece:** Beaded chains framing the face with a central jewel.
+*   **Key features:** The "Tassels" on the earrings are a major visual hook. The layering of the necklaces creates a sense of opulence.
+
+### 4. EDITING STRUCTURE
+*   **Transitions:** Hard cuts between the close-up detail and the medium shot.
+*   **Pacing:** Slow and luxurious. The camera lingers on the details.
+*   **Music vibe:** Upbeat traditional Indian instrumental (Dholak, Flute) or soft romantic Bollywood track.
+*   **Text Overlays:** "TANISHQ" logo with "A TATA PRODUCT" tagline in the top right corner.
+
+### 5. FINAL RECREATION PROMPT
+
+**Copy and paste this into your AI video generator:**
+
+> **Cinematic luxury bridal commercial, 4k resolution, square aspect ratio. A beautiful Indian bride
+
+---
+
+## 🎬 Shot Segment: Keyframes #13 to #14
+
+Based on the visual evidence of Keyframes #13 and #14, here is the reverse-engineered cinematography breakdown and generation prompt.
+
+### 1. VIDEO OVERVIEW
+*   **Total duration:** ~20 seconds (based on the 19.96s timestamp).
+*   **Total number of distinct shots:** This batch covers a continuous sequence, likely a single long take or a seamless match cut from a close-up to a medium-wide shot.
+*   **Overall style:** Cinematic Lifestyle / Wedding Editorial. It captures a candid, joyful moment of a traditional Indian wedding (Jaimala ceremony) with a focus on the jewelry worn by the bride.
+*   **Aspect ratio:** 1:1 (Square) or 4:5 (Portrait), typical for Instagram Reels.
+*   **Frame rate feel:** Smooth, likely 24fps or 30fps with a slight slow-motion effect to emphasize the movement of the fabric and hair.
+*   **Overall mood & color grade:** Warm, vibrant, and airy. The grade highlights the rich gold of the jewelry and the bright yellow of the saree against a soft, desaturated green background.
+
+### 2. SHOT-BY-SHOT BREAKDOWN (Batch 7)
+
+**Shot 13 (Transition from Close-up to Medium)**
+*   **Timestamp:** 12.5s
+*   **Camera angle:** Eye-level, slightly over-the-shoulder (OTS) from the groom's perspective.
+*   **Camera movement:** Static or very subtle handheld drift.
+*   **Camera distance:** Close-up on the bride's face and upper torso.
+*   **Lens feel:** 85mm or 100mm portrait lens.
+*   **Lighting setup:** Natural, diffused daylight (overcast or open shade). Soft shadows.
+*   **Background:** Out-of-focus heritage architecture (red and cream domes) and greenery.
+*   **Focus:** Shallow depth of field. The bride's face and the heavy gold necklace are sharp; the groom's head in the foreground is blurred.
+*   **Subject action:** The bride is smiling warmly, looking down at the groom. She is wearing a heavy gold choker and maang tikka.
+*   **Post-effects:** "Tanishq" logo watermark in the top right.
+
+**Shot 14 (The Celebration / Jaimala)**
+*   **Timestamp:** 13.5s
+*   **Camera angle:** Medium-wide, full body shot.
+*   **Camera movement:** Tracking shot (panning right) to follow the bride's movement.
+*   **Camera distance:** Medium (waist-up to full body).
+*   **Lens feel:** 50mm or 35mm.
+*   **Lighting setup:** Natural daylight, bright and even.
+*   **Background:** Lush green trees, slightly blurred to keep focus on the subjects.
+*   **Focus:** Deep focus, keeping the bride and the groom in the same plane of focus.
+*   **Subject action:** The bride is being lifted or dancing joyfully, holding hands with the groom (left) and another woman (right). Her yellow saree with a magenta border is flowing. The heavy gold necklace is the central visual anchor.
+*   **Post-effects:** "Tanishq" logo watermark.
+
+### 3. JEWELLERY DETAILS CAPTURED
+*   **Type:** Heavy bridal set (Necklace, Earrings, Maang Tikka, Bangles).
+*   **Metal:** 22K Yellow Gold (high saturation).
+*   **Design details:**
+    *   **Necklace:** A multi-layered, heavy bridal choker with intricate filigree work and likely ruby or red stone accents (visible in the close-up).
+    *   **Maang Tikka:** Traditional forehead ornament with a central pendant.
+    *   **Earrings:** Large, dangling gold jhumkas.
+*   **Key features:** The weight and drape of the gold against the bright yellow silk saree. The contrast between the warm gold and the cool green background.
+
+### 4. EDITING STRUCTURE
+*   **Transitions:** Hard cut or match cut from the intimate close-up (Shot 13) to the wide celebratory shot (Shot 14).
+*   **Pacing:** Joyful and energetic. The cut from the smile to the dance creates a sense of immediate celebration.
+*   **Music vibe:** Upbeat traditional Indian wedding music (Dhol or Sangeet track).
+*   **Text Overlays:** "Tanishq" logo (white, serif font)
+
+---
+
+## 🎬 Shot Segment: Keyframes #15 to #16
+
+Based on the visual evidence from Keyframes #15 and #16, here is the reverse-engineered breakdown and recreation prompt.
+
+### 1. VIDEO OVERVIEW
+*   **Total duration:** ~20 seconds (based on timestamp 19.96s).
+*   **Total number of distinct shots:** This batch represents a single continuous "lifestyle" shot, likely part of a montage of a wedding procession.
+*   **Overall style:** Cinematic lifestyle, bridal fashion, high-end jewelry commercial.
+*   **Aspect ratio:** 1:1 (Square) or 4:5 (Portrait), typical for Instagram Reels.
+*   **Frame rate feel:** Smooth, likely 24fps or 30fps with a slight slow-motion effect to emphasize the fabric movement.
+*   **Overall mood & color grade:** Vibrant, warm, and celebratory. The color grade is rich, emphasizing the yellow of the saree and the gold of the jewelry, with lush, saturated greens in the background.
+
+### 2. SHOT-BY-SHOT BREAKDOWN (Batch 8: 14.6s – 15.6s)
+
+**Shot #15 (The Procession)**
+*   **Timestamp:** 14.6s
+*   **Camera angle:** Eye-level, medium shot.
+*   **Camera movement:** Tracking shot (following the subject) or a handheld follow.
+*   **Camera distance:** Medium (waist-up).
+*   **Lens feel:** 50mm or 85mm (natural perspective, slight background compression).
+*   **Lighting setup:** Natural daylight, soft and diffused (overcast or open shade), creating soft shadows.
+*   **Background:** Lush green garden/trees, heavily blurred (bokeh).
+*   **Focus:** Sharp on the bride's face and jewelry; background is out of focus.
+*   **Subject action:** The bride is walking forward, smiling broadly, holding the hand of a man (groom) on the left. She is wearing a yellow saree with a pink border.
+*   **Post-effects:** "TANISHQ" logo overlay in the top center.
+
+**Shot #16 (The Turn)**
+*   **Timestamp:** 15.6s
+*   **Camera angle:** Eye-level, medium shot.
+*   **Camera movement:** Static or slight pan to follow the subject's turn.
+*   **Camera distance:** Medium (waist-up).
+*   **Lens feel:** 50mm or 85mm.
+*   **Lighting setup:** Natural daylight.
+*   **Background:** Same lush green garden, blurred.
+*   **Focus:** Sharp on the bride's profile and jewelry.
+*   **Subject action:** The bride has turned her head to her right (viewer's left), looking back or interacting with someone off-camera. Her expression is a soft smile.
+*   **Post-effects:** "TANISHQ" logo overlay in the top center.
+
+### 3. JEWELLERY DETAILS CAPTURED
+*   **Type of jewellery:** Bridal set (Necklace, Choker, Earrings, Maang Tikka, Bangles).
+*   **Metal color/finish:** Yellow Gold (high polish).
+*   **Gemstones:**
+    *   **Necklace:** Heavy Kundan/Jadau style with large yellow and white stones (likely yellow diamonds or citrines).
+    *   **Choker:** Matching heavy gold choker.
+    *   **Earrings:** Large Jhumkas with red tassels (red beads/threads).
+    *   **Maang Tikka:** Gold with a central stone.
+*   **Design details:** Traditional Indian bridal aesthetic, heavy and ornate.
+*   **Key features emphasized:** The weight and shine of the gold, the red accents in the earrings, and how the jewelry sits on the skin.
+
+### 4. EDITING STRUCTURE
+*   **Clips:** This segment is a continuous take.
+*   **Transitions:** None within this specific 1-second window.
+*   **Pacing:** Moderate, allowing the viewer to appreciate the movement of the saree and the bride's expression.
+*   **Music/Sound:** Likely upbeat, traditional Indian wedding music (Dhol beats or a fusion track).
+*   **Text Overlays:** "TANISHQ" logo with a stylized 'T' icon at the top center.
+
+### 5. FINAL RECREATION PROMPT
+
+**Master Prompt for AI Video Generation:**
+
+> Cinematic bridal fashion commercial, 4k resolution, 1:1 aspect
+
+---
+
+## 🎬 Shot Segment: Keyframes #17 to #18
+
+Based on the visual evidence from Keyframes #17 and #18, here is the reverse-engineered breakdown and recreation prompt for this segment of the video.
+
+### 1. VIDEO OVERVIEW
+*   **Total duration (segment):** ~1.1 seconds (16.6s to 17.7s).
+*   **Total number of distinct shots:** 1 continuous shot (part of a larger sequence).
+*   **Overall style:** Cinematic Lifestyle / Wedding Editorial.
+*   **Aspect ratio:** 1:1 (Square) or 4:5 (Portrait) — The images suggest a vertical crop.
+*   **Frame rate feel:** Smooth, likely 24fps or 30fps.
+*   **Overall mood & color grade:** Warm, romantic, soft-focus. The grade is "pastel-warm," emphasizing the yellow of the saree and the gold of the jewelry against a desaturated green background.
+
+### 2. SHOT-BY-SHOT BREAKDOWN
+**Shot #17-18 (The "Laughing Couple" Moment)**
+*   **Timestamp:** 16.6s – 17.7s
+*   **Duration:** ~1.1s
+*   **Camera angle:** Eye-level, slightly low angle (looking up at the couple).
+*   **Camera movement:** Handheld with a subtle, organic drift (slight pan right/tilt up) to follow the bride's movement.
+*   **Camera distance:** Medium Close-Up (waist-up).
+*   **Lens feel:** 50mm or 85mm portrait lens.
+*   **Lighting setup:** Natural, soft daylight (overcast or shade). No harsh shadows; light wraps around the faces.
+*   **Background:** Outdoor garden setting, heavily blurred (bokeh) green foliage.
+*   **Focus:** Shallow Depth of Field (DOF). Focus is locked on the bride's face and jewelry; the groom and background are soft.
+*   **Subject action:** The bride and groom are laughing together. The bride is looking down at her hand/jewelry, smiling broadly. The groom is looking at her, smiling.
+*   **Post-effects:** Text overlays fade in (see Section 4).
+
+### 3. JEWELLERY DETAILS CAPTURED
+*   **Type of jewellery:** Full bridal set (Head, Neck, Ears, Arms, Hand).
+*   **Metal color/finish:** Polished Yellow Gold.
+*   **Gemstones:**
+    *   **Maang Tikka:** Gold chain with a central pendant, accented with red beads/flowers.
+    *   **Earrings:** Large, traditional Jhumkas (bell-shaped) with intricate gold detailing.
+    *   **Necklaces:** Layered set. A choker (possibly Kundan/Polki) and a longer, multi-strand necklace.
+    *   **Bangles:** A stack of gold bangles mixed with green bangles (traditional bridal color).
+    *   **Ring:** A large, prominent ring on the bride's finger (likely a diamond or stone-set signet).
+*   **Design details:** Heavy, traditional Indian bridal aesthetic. The "Rivaah" collection implies a specific design language (likely floral or geometric motifs).
+*   **Key features emphasized:** The sparkle of the gold in natural light and the sheer volume of the jewelry (the "stacking").
+
+### 4. EDITING STRUCTURE
+*   **Clips:** This is a single continuous take.
+*   **Transitions:** N/A (Continuous).
+*   **Pacing:** Relaxed, capturing a candid "in-between" moment.
+*   **Text Overlays:**
+    *   Top Center: "TANISHQ" logo (small).
+    *   Center (Fades in): "for marriages crafted by you" (serif font).
+    *   Lower Center (Fades in): "RIVA AH" (Large, elegant serif) and "Wedding Signature" (smaller sans-serif).
+
+### 5. FINAL RECREATION PROMPT
+
+**Copy and paste the following into your AI video generator:**
+
+> **Cinematic medium close-up shot, 4k, 85mm lens, shallow depth of field. A beautiful Indian bride and groom standing outdoors in a lush green garden, soft natural daylight, overcast lighting. The bride is wearing a vibrant yellow silk saree with a pink border and a heavy traditional gold bridal jewelry set, including a maang tikka with red accents, large gold jhumka earrings, a layered gold necklace, and a thick stack of gold and green bangles. The groom
+
+---
+
+## 🎬 Shot Segment: Keyframes #19 to #19
+
+Based on the visual evidence of the final keyframe (Keyframe #19) and the context of a luxury jewelry commercial, here is the reverse-engineered breakdown and recreation prompt.
+
+### 1. VIDEO OVERVIEW
+*   **Total duration:** ~20 seconds (based on the 19.96s timestamp).
+*   **Total number of distinct shots:** Likely 3-4 shots (implied by the progression to a final "brand card" shot).
+*   **Overall style:** Cinematic Lifestyle / Editorial. It blends high-end product display with emotional storytelling (wedding context).
+*   **Aspect ratio:** 1:1 (Square) - Standard for Instagram feeds.
+*   **Frame rate feel:** Smooth, likely 24fps or 30fps with a slight slow-motion feel to emphasize elegance.
+*   **Overall mood & color grade:** Warm, organic, and romantic. The grade features soft greens (foliage), rich yellows (saree), and warm skin tones. High saturation on the jewelry, soft contrast on the faces.
+
+### 2. SHOT-BY-SHOT BREAKDOWN
+*(Note: As only the final keyframe is provided, this breakdown focuses on the final "Hero" shot which serves as the brand reveal.)*
+
+*   **Shot #19 (The Outro/Brand Card)**
+    *   **Timestamp:** 18.7s – 19.96s
+    *   **Duration:** ~1.2 seconds
+    *   **Camera angle:** Eye-level, Medium Close-Up (waist-up).
+    *   **Camera movement:** Static or extremely slow push-in (dolly-in) to settle the frame.
+    *   **Camera distance:** Medium Close-Up.
+    *   **Lens feel:** 50mm or 85mm portrait lens. Shallow depth of field (f/1.8 - f/2.8) to isolate the subject from the background.
+    *   **Lighting setup:** Natural, diffused daylight (overcast or open shade). Soft, flattering light on the faces with no harsh shadows.
+    *   **Background:** Outdoor garden setting. Lush green foliage, heavily blurred (bokeh).
+    *   **Focus:** Sharp focus on the bride's face and the jewelry on her chest/hands. The second woman in the background is slightly out of focus.
+    *   **Subject action:** The bride is smiling gently, looking slightly off-camera (to her left). Her hand is raised to her chest, showcasing a ring and bangles. The second woman stands behind her, smiling.
+    *   **Post-effects:** Text overlay appears (Fade-in).
+
+### 3. JEWELLERY DETAILS CAPTURED
+*   **Type of jewellery:** Full bridal set (Headpiece, Earrings, Necklace, Choker, Bangles, Ring).
+*   **Metal color/finish:** Polished Yellow Gold.
+*   **Gemstones:**
+    *   **Red:** Ruby (prominent in the choker and earrings).
+    *   **Green:** Emerald (accent stones in the choker).
+    *   **White:** Pearls (necklace strands).
+*   **Design details:**
+    *   **Maang Tikka:** Traditional headpiece with a central pendant and chain.
+    *   **Choker:** Heavy, ornate gold choker with a large central ruby drop.
+    *   **Necklace:** Layered pearl and gold necklace.
+    *   **Bangles:** Stack of gold bangles on the wrist.
+*   **Key features emphasized:** The "Tanishq Rivaah" branding is the focus, but the visual anchor is the *sparkle and weight* of the gold against the yellow silk saree.
+
+### 4. EDITING STRUCTURE
+*   **Clips:** The video likely ends with a slow fade or a hard cut to this final frame.
+*   **Transitions:** Smooth dissolves or cuts on action (e.g., hand movement).
+*   **Pacing:** Slow and luxurious. The final shot holds long enough for the text to be read.
+*   **Music/Sound:** Likely soft, traditional Indian instrumental (Sitar or Flute) mixed with a modern, ambient cinematic beat.
+*   **Text Overlays:**
+    *   "For marriages crafted by you" (Small, serif font, white).
+    *   "TANISHQ" (Logo, white).
+    *   "RIVA'AH" (Large, elegant serif font, white).
+    *   "Wedding Signatures" (Small, serif font, white).
+
+### 5

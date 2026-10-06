@@ -1,0 +1,56 @@
+=== GROQ FULL VIDEO ANALYSIS REPORT ===
+Video File: video_20261006_164038_sample_test_video.mp4
+Video Duration: 3.0 seconds
+Model: openai/gpt-oss-120b
+Keyframes Sampled: 5
+
+=== USER PROMPT ===
+Provide an exhaustive shot-by-shot timeline breakdown for the ENTIRE video.
+
+=== FULL VIDEO ANALYSIS ===
+**Important note:** I don’t have the ability to view or directly analyze video files, so I can’t see the actual visual content of *video_20261006_164038_sample_test_video.mp4*. To give you a truly **exhaustive, shot‑by‑shot timeline** I would need a description of what appears in each keyframe (or, ideally, a frame‑by‑frame transcript).  
+
+Below is a **template** you can fill in with the specific visual information you observe at each timestamp. Once you provide those details, I can expand the outline into a full, detailed breakdown that includes:
+
+* Exact start‑ and end‑times for each shot  
+* Descriptions of camera movement, framing, lighting, and any on‑screen action or dialogue  
+* Notable edits, transitions, and visual effects  
+* Audio cues (music, sound effects, speech) that accompany each segment  
+
+---
+
+## Proposed Shot‑by‑Shot Timeline (0 s – 3 s)
+
+| Shot # | Start Time | End Time | Duration | Visual Description (what’s on screen) | Camera Work / Movement | Lighting / Color | Audio | Notes / Transitions |
+|--------|------------|----------|----------|----------------------------------------|------------------------|------------------|-------|----------------------|
+| 1 | 0.000 s | 0.600 s | 0.6 s | *[Describe what is visible in Keyframe #1]* | *[e.g., static, pan, tilt, dolly, handheld]* | *[e.g., bright daylight, low‑key, color grade]* | *[Music cue, ambient sound, dialogue]* | *[Cut, fade, wipe, etc.]* |
+| 2 | 0.600 s | 1.200 s | 0.6 s | *[Describe what is visible in Keyframe #2]* | *[Camera motion]* | *[Lighting]* | *[Audio]* | *[Transition]* |
+| 3 | 1.200 s | 1.800 s | 0.6 s | *[Describe what is visible in Keyframe #3]* | *[Camera motion]* | *[Lighting]* | *[Audio]* | *[Transition]* |
+| 4 | 1.800 s | 2.300 s | 0.5 s | *[Describe what is visible in Keyframe #4]* | *[Camera motion]* | *[Lighting]* | *[Audio]* | *[Transition]* |
+| 5 | 2.300 s | 3.000 s | 0.7 s | *[Describe what is visible in Keyframe #5]* | *[Camera motion]* | *[Lighting]* | *[Audio]* | *[Transition / fade‑out]* |
+
+### How to Fill the Table
+
+1. **Play the video** and pause at each keyframe timestamp (0.0 s, 0.6 s, 1.2 s, 1.8 s, 2.3 s).  
+2. **Note the primary visual elements** (characters, objects, setting, text overlays, graphics, etc.).  
+3. **Observe any motion** between the start and end of each shot (e.g., a pan from left to right, a zoom, a tracking shot).  
+4. **Record lighting cues** (time of day, source of light, color temperature, any dramatic contrast).  
+5. **Listen to the audio track** for music, sound effects, or spoken dialogue that aligns with the visual.  
+6. **Identify the edit type** that moves the video from one shot to the next (hard cut, dissolve, wipe, match cut, etc.).  
+
+---
+
+### Example (filled‑in) Entry
+
+| Shot # | Start Time | End Time | Duration | Visual Description | Camera Work / Movement | Lighting / Color | Audio | Notes / Transitions |
+|--------|------------|----------|----------|--------------------|------------------------|------------------|-------|----------------------|
+| 1 | 0.000 s | 0.600 s | 0.6 s | Close‑up of a hand turning a vintage key in a rusted lock; background is a dimly lit hallway. | Static tripod, slight push‑in as the key turns. | Low‑key, warm amber tones; a single overhead bulb creates a soft rim light. | Ambient creak of metal, faint heartbeat thump. | Hard cut to next shot. |
+
+---
+
+## Next Steps
+
+1. **Provide the visual/audio details** for each of the five keyframes (or a brief description of the entire 3‑second clip).  
+2. I will then **populate the table** with precise timestamps, elaborate on any sub‑shots that occur between the keyframes, and highlight any noteworthy cinematic techniques.
+
+Feel free to paste a short frame‑by‑frame description, or even a simple bullet list of what you see at each timestamp, and I’ll turn it into the comprehensive shot‑by‑shot analysis you’re looking for.

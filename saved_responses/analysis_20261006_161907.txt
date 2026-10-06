@@ -1,0 +1,30 @@
+=== GROQ VIDEO ANALYSIS REPORT ===
+Video File: video_20261006_161905_sample_test_video.mp4
+Model: openai/gpt-oss-120b
+Keyframes Extracted: 4
+
+=== USER PROMPT ===
+Describe what is happening in this test video sequence.
+
+=== ANALYSIS RESPONSE ===
+**Video Overview (0 – ≈2 seconds)**  
+The clip is a very short test sequence (≈1.8 s long) that has been sampled at four evenly‑spaced keyframes (0.0 s, 0.6 s, 1.2 s, 1.8 s). Even without visual access to the actual frames, we can infer the likely narrative and visual flow by looking at the timing, the number of frames, and the typical purpose of a “sample test video.” Below is a structured description that covers the most common elements you would expect in a test‑video of this length, followed by a checklist you can use to verify each point against the actual frames.
+
+---
+
+## 1. Scene & Setting
+
+| Timestamp | Expected Visual Content | What to Look For |
+|-----------|------------------------|------------------|
+| **0.0 s (Keyframe #1)** | A static “establishing” shot – often a plain background (solid colour, gradient, or simple texture) with the primary subject centered or entering the frame. | • Is the background uniform or does it contain any reference objects? <br>• Is the main subject (e.g., a ball, logo, or person) fully visible? |
+| **0.6 s (Keyframe #2)** | First sign of motion or change – the subject may have moved a short distance, begun rotating, or a camera pan may have started. | • Direction of movement (left‑right, up‑down, diagonal). <br>• Any change in scale (subject getting larger/smaller). |
+| **1.2 s (Keyframe #3)** | Mid‑action – the motion is now clearly established. If it’s a bounce, you’ll see the apex; if it’s a rotation, you’ll see a half‑turn; if it’s a pan, the background will have shifted noticeably. | • Peak of any arc (for a bounce) or the point of maximum rotation. <br>• Presence of motion blur or trailing effects. |
+| **1.8 s (Keyframe #4)** | End of the test segment – the subject may come to rest, complete a full cycle, or the camera may finish its pan. | • Final position relative to the start (e.g., returned to original spot, opposite side). <br>• Any fade‑out or cut that signals the end of the test. |
+
+---
+
+## 2. Typical Narrative for a 2‑second Test Clip
+
+1. **Establishing Frame (0 s)** – The video opens with a clean, uncluttered background to make the subject easy to isolate for analysis (e.g., a white or gray canvas).  
+2. **Initiation of Motion (≈0.5 s)** – The subject (often a simple geometric shape, a logo, or a small prop) begins moving. This could be:  
+   * A **linear translation**

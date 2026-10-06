@@ -1,0 +1,100 @@
+=== GROQ FULL VIDEO ANALYSIS REPORT ===
+Video File: video_20261006_164134_instagram_20261005_133052_0b35ca.mp4
+Video Duration: 19.96 seconds
+Model: openai/gpt-oss-120b
+Keyframes Sampled: 19
+
+=== USER PROMPT ===
+You are a professional video director and cinematographer specializing in 
+luxury jewellery commercials. I am uploading a jewellery video. Your job is to 
+reverse-engineer it into a COMPLETE, REPRODUCIBLE VIDEO GENERATION PROMPT that 
+another AI (like Sora, Veo, Runway, Kling) could use to recreate a nearly 
+identical video.
+
+Analyze the video frame-by-frame and output the following sections:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. VIDEO OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Total duration (seconds)
+- Total number of distinct shots/clips edited together
+- Overall style (cinematic, product demo, macro, lifestyle, etc.)
+- Aspect ratio and resolution estimate
+- Frame rate feel (smooth/slow-mo/normal)
+- Overall mood & color grade (warm, cool, high-contrast, pastel, etc.)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. SHOT-BY-SHOT BREAKDOWN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+For EACH shot (numbered), give me:
+
+- Shot # and timestamp (start–end)
+- Duration of shot
+- Camera angle: (top-down / 45° hero angle / eye-level / macro close-up / 
+  profile / low angle / rotating turntable / POV)
+- Camera movement: (static / slow pan left-right / orbit / dolly-in / 
+  dolly-out / tilt-up / tilt-down / zoom / handheld)
+- Camera distance: (extreme macro / close-up / medium / full product)
+- Lens feel: (macro 100mm / 50mm / wide / telephoto compression)
+- Lighting setup: (softbox overhead / rim light / spotlight / natural 
+  window light / ring light / studio 3-point / hard directional)
+- Background: (black velvet / white seamless / marble / silk fabric / 
+  model skin / gradient / reflective surface)
+- Focus: (shallow DOF with bokeh / deep focus / rack focus)
+- Subject action: (static product / slow rotation / model wearing / 
+  hand adjusting / light glinting / sparkle effect)
+- Post-effects: (slow motion / speed ramp / glint/flare overlay / 
+  particles / reflection / text overlay)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. JEWELLERY DETAILS CAPTURED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Type of jewellery (ring, necklace, earrings, bracelet, watch, etc.)
+- Metal color/finish (yellow gold, rose gold, white gold, platinum, silver)
+- Gemstones (type, cut, color, size, arrangement)
+- Design details (filigree, halo, solitaire, pavé, engraving)
+- Key features the camera emphasizes (sparkle, clasp, engraving, setting)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. EDITING STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- How many clips were stitched into the final video
+- Transition types between shots (hard cut / fade / whip pan / match cut)
+- Pacing (fast cuts / slow luxurious cuts)
+- Music/sound vibe (if inferable: orchestral, ambient, ASMR sparkle)
+- Any text overlays, logos, or CTAs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. FINAL RECREATION PROMPT (THE MOST IMPORTANT PART)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Now write ONE master prompt (200–400 words) that I can paste into a video 
+generation AI to recreate this video. It must include:
+- Subject description (jewellery type, metal, stones, finish)
+- Environment & background
+- Lighting style
+- Camera angle, lens, and movement per shot
+- Number of shots and how they're edited together
+- Duration and pacing
+- Color grade and mood
+- Any effects (sparkle, glint, slow-mo)
+
+Format the final prompt as clean, comma-separated cinematic directions.
+
+=== FULL VIDEO ANALYSIS ===
+**Important note:** I don’t have visual access to the file *video_20261006_164134_instagram_20261005_133052_0b35ca.mp4*, so I can’t watch the footage or extract exact visual information from each key‑frame. To give you a reliable, shot‑by‑shot breakdown and a recreation prompt that will faithfully reproduce the original, I need a description of what is shown in the video (e.g., the type of jewellery, how it moves, lighting cues, background, any text or graphics, etc.) or a few representative still images.
+
+If you can provide:
+
+1. **A brief description of each key‑frame** (what the camera is looking at, the angle, any motion, lighting, background colour, etc.), or  
+2. **A link to a publicly viewable version of the video**, or  
+3. **Screenshots of the major shots**,  
+
+I’ll be able to:
+
+- Count the distinct shots and their exact start/end times.  
+- Identify camera angles, movements, lens choices, lighting setups, and background treatments.  
+- List the jewellery details (metal, gemstones, design features).  
+- Outline the editing structure (cuts, transitions, pacing, music, overlays).  
+- Write a precise, 200‑400‑word master prompt that you can paste into any AI video‑generation tool (Sora, Runway, etc.) to recreate a near‑identical commercial.
+
+Please share the visual details, and I’ll deliver the full, reproducible prompt you need.

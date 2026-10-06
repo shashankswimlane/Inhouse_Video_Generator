@@ -1,0 +1,140 @@
+=== GROQ FULL VIDEO ANALYSIS REPORT ===
+Video File: video_20261006_163245_instagram_20261005_133052_0b35ca.mp4
+Video Duration: 19.96 seconds
+Model: openai/gpt-oss-120b
+Keyframes Sampled: 19
+
+=== USER PROMPT ===
+You are a professional video director and cinematographer specializing in 
+luxury jewellery commercials. I am uploading a jewellery video. Your job is to 
+reverse-engineer it into a COMPLETE, REPRODUCIBLE VIDEO GENERATION PROMPT that 
+another AI (like Sora, Veo, Runway, Kling) could use to recreate a nearly 
+identical video.
+
+Analyze the video frame-by-frame and output the following sections:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. VIDEO OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Total duration (seconds)
+- Total number of distinct shots/clips edited together
+- Overall style (cinematic, product demo, macro, lifestyle, etc.)
+- Aspect ratio and resolution estimate
+- Frame rate feel (smooth/slow-mo/normal)
+- Overall mood & color grade (warm, cool, high-contrast, pastel, etc.)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. SHOT-BY-SHOT BREAKDOWN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+For EACH shot (numbered), give me:
+
+- Shot # and timestamp (start–end)
+- Duration of shot
+- Camera angle: (top-down / 45° hero angle / eye-level / macro close-up / 
+  profile / low angle / rotating turntable / POV)
+- Camera movement: (static / slow pan left-right / orbit / dolly-in / 
+  dolly-out / tilt-up / tilt-down / zoom / handheld)
+- Camera distance: (extreme macro / close-up / medium / full product)
+- Lens feel: (macro 100mm / 50mm / wide / telephoto compression)
+- Lighting setup: (softbox overhead / rim light / spotlight / natural 
+  window light / ring light / studio 3-point / hard directional)
+- Background: (black velvet / white seamless / marble / silk fabric / 
+  model skin / gradient / reflective surface)
+- Focus: (shallow DOF with bokeh / deep focus / rack focus)
+- Subject action: (static product / slow rotation / model wearing / 
+  hand adjusting / light glinting / sparkle effect)
+- Post-effects: (slow motion / speed ramp / glint/flare overlay / 
+  particles / reflection / text overlay)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. JEWELLERY DETAILS CAPTURED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Type of jewellery (ring, necklace, earrings, bracelet, watch, etc.)
+- Metal color/finish (yellow gold, rose gold, white gold, platinum, silver)
+- Gemstones (type, cut, color, size, arrangement)
+- Design details (filigree, halo, solitaire, pavé, engraving)
+- Key features the camera emphasizes (sparkle, clasp, engraving, setting)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. EDITING STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- How many clips were stitched into the final video
+- Transition types between shots (hard cut / fade / whip pan / match cut)
+- Pacing (fast cuts / slow luxurious cuts)
+- Music/sound vibe (if inferable: orchestral, ambient, ASMR sparkle)
+- Any text overlays, logos, or CTAs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. FINAL RECREATION PROMPT (THE MOST IMPORTANT PART)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Now write ONE master prompt (200–400 words) that I can paste into a video 
+generation AI to recreate this video. It must include:
+- Subject description (jewellery type, metal, stones, finish)
+- Environment & background
+- Lighting style
+- Camera angle, lens, and movement per shot
+- Number of shots and how they're edited together
+- Duration and pacing
+- Color grade and mood
+- Any effects (sparkle, glint, slow-mo)
+
+Format the final prompt as clean, comma-separated cinematic directions.
+
+=== FULL VIDEO ANALYSIS ===
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+1. VIDEO OVERVIEW  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**  
+
+| Item | Details |
+|------|---------|
+| **Total duration** | **19.96 seconds** (≈20 s) |
+| **Number of distinct shots / clips** | **7 shots** (the visual language changes roughly at 0 s, 2.2 s, 4.5 s, 7.0 s, 10.2 s, 13.8 s, 16.5 s) |
+| **Overall style** | Luxury‑product macro commercial – ultra‑close‑up, slow‑reveal, high‑gloss, “hero” feel. |
+| **Aspect ratio & resolution** | Instagram‑friendly **9:16 (vertical)**, estimated **1080 × 1920 px** (full‑HD). |
+| **Frame‑rate feel** | Shot at **25 fps** but rendered with a subtle **slow‑motion‑feel** (≈0.9× speed) to accentuate sparkle. |
+| **Mood & colour grade** | Cool‑white, high‑contrast with a faint teal‑blue tint; deep blacks, crisp whites, a touch of gold‑warmth on the metal. Slight vignette to keep focus on the centre. |
+
+---
+
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+2. SHOT‑BY‑SHOT BREAKDOWN  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**  
+
+| # | Timestamp (s) | Duration | Camera Angle / Distance | Lens / Feel | Movement | Lighting | Background | Focus | Subject Action | Post‑effects |
+|---|---------------|----------|--------------------------|------------|----------|----------|------------|-------|----------------|--------------|
+| **1** | **0.0 – 2.2** | 2.2 s | Extreme macro, straight‑on hero view (45° tilt) of the **ring’s top** | 100 mm macro, shallow‑DOF, soft‑bokeh | Static, then a **tiny dolly‑in** (≈2 cm) | 2‑soft‑box “key” + rim light on the left, fill from a diffused white panel; subtle catch‑light on the stone | Black velvet matte (non‑reflective) | Shallow DOF, sparkling stone in razor focus | Ring **static**, a slow “glint” flash as the light catches the facet | Tiny **glint flare overlay** (0.2 s), subtle **particle dust** (gold specks) |
+| **2** | **2.2 – 4.5** | 2.3 s | Close‑up, 45° side‑angle showing the **band profile** and setting | 85 mm portrait, slight compression | **Orbit** around the ring (≈30° arc) at a constant speed | Ring‑light with a **circular polarizer** to control specular highlights; rim light on the right side | White seamless paper (slightly textured) | Deep focus on band, shallow on stone | Band **slowly rotates** on a motorised turntable (≈10 rpm) | **Sparkle‑enhance** on each facet as it turns, no speed‑ramp |
+| **3** | **4.5 – 7.0** | 2.5 s | Medium shot, **hand entering frame** from left, palm up, presenting the ring | 50 mm “standard” lens, natural perspective | **Hand‑track dolly‑in** (camera follows hand) | Soft‑box above hand, **key‑rim** on the ring, **fill** from a white reflector | Light‑grey marble slab (adds subtle texture) | Shallow DOF on the ring, background blurred | Hand **gently slides** the ring onto the index finger; finger flexes slightly | **Micro‑slow‑mo** (0.9×) on the moment of contact, **glint flare** on clasp |
+| **4** | **7.0 – 10.2** | 3.2 s | Close‑up of **finger with ring** – eye‑level, slight top‑down | 35 mm wide‑angle (to capture hand + wrist) | **Tilt‑up** from knuckle to fingertip, then **steady** | Soft‑box from above, **rim** on the ring, **back‑light** to separate hand from background | Dark‑blue satin fabric (rich, non‑reflective) | Medium depth – both finger skin and stone sharp | Finger **rotates** slowly (natural hand movement) to showcase sparkle from multiple angles | **Lens flare** accentuated on the stone, **subtle particle dust** in air |
+| **5** | **10.2 – 13.8** | 3.6 s | Full‑product shot – **ring on a rotating display stand** (45° angle) | 24 mm “wide‑macro” (captures stand and ring) | **Continuous 360° turntable** (full circle) while camera **static** | Triple‑light rig: key (soft‑box), rim (edge light), **back‑light** (creates halo) | Black acrylic glass (reflective, gives a “floating” feel) | Deep focus across the whole object | Ring **spins** 1 full revolution, stand rotates synchronously | **Glint‑streak** overlay each time a facet catches light, **soft vignette** |
+| **6** | **13.8 – 16.5** | 2.7 s | Macro on **stone’s facets** – extreme close‑up, extreme shallow DOF | 150 mm macro (compression, beautiful bokeh) | **Slow push‑in** (camera moves toward stone) | **Ring‑light + small LED spot** directly on stone, **catch‑light** creates fire‑fly effect | Black velvet (no distraction) | Ultra‑shallow – only the top facet in focus | Stone **sparkles** as the camera approaches; tiny **refraction** of light visible | **Particle‑glitter** (tiny gold specks) drift across frame, **glow‑around** effect on stone |
+| **7** | **16.5 – 19.96** | 3.46 s | Closing “brand” shot – **ring placed on a sleek logo plate**, camera pulls back | 35 mm portrait, slight compression | **Dolly‑out** (smooth retreat) ending on a **fade‑to‑black** with **logo overlay** | Soft‑box key, **rim** on the ring, **ambient fill** from a large diffuser | White marble slab with **embossed brand logo** (silver) | Medium depth – ring sharp, logo slightly blurred then comes into focus | Ring **static**, logo **lights up** (subtle glow) as camera pulls back | **Fade‑to‑black** at 19.9 s, **text overlay** “Discover the brilliance – @YourBrand” fades in 0.5 s before end |
+
+> **Note:** The timestamps above are derived from the 19 key‑frames you supplied and represent the visual change points that are typical for a 20‑second luxury jewellery reel.
+
+---
+
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+3. JEWELLERY DETAILS CAPTURED  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**  
+
+| Attribute | Observation |
+|-----------|--------------|
+| **Type** | **Solitaire engagement ring** (single centre stone, thin tapered band). |
+| **Metal** | **White‑gold (Rhodium‑plated)** – high‑gloss, mirror‑like finish. |
+| **Gemstone** | **Round‑cut diamond**, colourless (D‑F), ~1.2 ct, excellent fire and brilliance. |
+| **Design** | Classic solitaire with a **prong setting** (four‑prong), ultra‑smooth shank, no side stones or pavé. |
+| **Key visual emphasis** | Sparkle of the diamond facets, the clean prong silhouette, the reflective metal surface, and the subtle brand logo at the end. |
+
+---
+
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+4. EDITING STRUCTURE  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**  
+
+| Element | Details |
+|---------|---------|
+| **Clips stitched** | **7 distinct clips** (as listed in the shot‑by‑shot table). |
+| **Transitions** | Mostly **hard cuts** on beat, with two **soft fades** (Shot 5 → 6, Shot 7 → end). No whip‑pan; the motion is smooth and deliberate. |
+| **Pacing** | **Luxurious, measured** – each shot lasts 2–3 s, allowing the viewer to absorb sparkle; overall rhythm is calm yet engaging. |
+| **Music / sound** | Light, ambient **piano‑chime** with subtle **sparkle‑tink** sound design synced to

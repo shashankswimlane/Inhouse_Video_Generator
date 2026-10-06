@@ -1,0 +1,109 @@
+=== GROQ QWEN MULTIMODAL BATCHED VISION REPORT ===
+Video File: video_20261006_170609_sample_test_video.mp4
+Video Duration: 3.0 seconds
+Model: qwen/qwen3.8-27b
+Total Keyframes Sampled: 5
+Batches Processed (3 images/batch): 2
+
+=== USER PROMPT ===
+Provide an exhaustive shot-by-shot timeline breakdown for the ENTIRE video.
+
+=== UNIFIED VISION REPORT ===
+# 🌟 Master Video Commercial Synthesis
+
+### 1. Executive Commercial Summary
+This footage is a synthetic diagnostic sequence, not a commercial asset. It serves as a technical stress test for the Groq AI video generation pipeline, specifically evaluating color consistency, text rendering fidelity, and object tracking stability. The visual narrative is non-narrative, consisting of a static orthographic view of a 2D plane where a yellow geometric marker moves linearly across shifting solid-color backgrounds (periwinkle, green, red). There is no commercial value in the current format; however, the underlying motion logic (constant velocity translation) and color-cycling mechanics can be repurposed for abstract tech-themed branding or UI animation demos.
+
+### 2. Jewelry & Styling Audit
+**Status: Not Applicable.**
+The video contains no human subjects, apparel, or jewelry. The sole visual element is a synthetic, flat-shaded yellow circle. No material properties, textures, or lighting interactions typical of physical product photography are present.
+
+### 3. Master AI Video Generation Prompt
+
+**Prompt:**
+Generate a 3-second, 1080p synthetic motion graphics sequence with a static, orthographic camera angle. The scene features a flat, solid-color background that undergoes hard cuts to change color, overlaid with a moving geometric shape and dynamic text.
+
+**Visual Elements:**
+1.  **Background:** Start with a flat, periwinkle blue (#5D5DFB) field. At the 1.2-second mark, hard cut to a vibrant lime green (#33E666). At the 2.3-second mark, hard cut to a flat salmon/coral red (#F25C54). The background must remain perfectly flat with no gradients, textures, or shadows.
+2.  **Moving Object:** A solid, bright yellow (#FFFF00) circle, approximately 10% of the frame width. It moves in a straight, diagonal line from the lower-left quadrant toward the lower-right quadrant at a constant velocity. The circle must remain sharp and flat, with no 3D depth, rotation, or shadow casting.
+3.  **Text Overlay:** White, sans-serif text positioned in the upper-left quadrant. The text updates dynamically to reflect the frame count: "Groq AI Video Test Frame #0" at start, "Groq AI Video Test Frame #14" at 0.6s, "Groq AI Video Test Frame #28" at 1.2s, "Groq AI Video Test Frame #42" at 1.8s, and "Groq AI Video Test Frame #56" at 2.3s. The text must be crisp, high-contrast, and static in position while the content updates.
+
+**Technical Specifications:**
+*   **Lighting:** Uniform, shadowless digital lighting. No ambient occlusion or specular highlights.
+*   **Motion:** Linear translation for the yellow circle. No easing or acceleration.
+*   **Style:** Minimalist, technical, 2D vector aesthetic.
+*   **Aspect Ratio:** 16:9.
+*   **Frame Rate:** 30fps.
+
+**Negative Prompt:**
+No humans, no 3D objects, no shadows, no gradients, no camera movement, no blur, no noise, no organic textures, no jewelry, no clothing.
+
+---
+
+# 📸 Shot-by-Shot Visual Breakdown (2 Batches, 5 Keyframes)
+
+## 🎬 Shot Segment: Keyframes #1 to #3
+
+**Cinematographer & Vision Analyst Report**
+**Subject:** Synthetic Motion Test / UI Animation
+**Video File:** `video_20261006_170609_sample_test_video.mp4`
+**Batch:** 1/2 (Frames #1–#3)
+
+**Executive Summary:**
+The footage is a synthetic, 2D motion graphics sequence designed for technical testing (likely for AI video generation or rendering pipelines). There are no human subjects, jewelry, or wardrobe elements present. The visual narrative consists of a flat, solid-color background (shifting from periwinkle blue to bright green) featuring a moving yellow geometric shape and updating text overlays. The camera is static, and the lighting is uniform and flat, typical of digital compositing.
+
+---
+
+### **Shot-by-Shot Timeline Breakdown**
+
+**Shot 1: The Initial State (Frame #0)**
+*   **Timestamp:** 0.0s
+*   **Visual Composition:** The frame is dominated by a flat, periwinkle blue (approx. #5D5DFB) rectangular field set against a black background.
+*   **Subject/Action:** A solid, bright yellow circle is positioned in the lower-left quadrant of the blue field.
+*   **Text Overlay:** White, sans-serif text reads "Groq AI Video Test Frame #0" aligned to the left, positioned above the yellow circle.
+*   **Lighting/Camera:** Flat, shadowless digital lighting. Static camera position.
+
+**Shot 2: Motion & Increment (Frame #14)**
+*   **Timestamp:** 0.6s
+*   **Visual Composition:** The background remains the same periwinkle blue.
+*   **Subject/Action:** The yellow circle has translated diagonally, moving from the lower-left toward the center of the frame.
+*   **Text Overlay:** The text has updated to "Groq AI Video Test Frame #14," indicating a frame count or sequence progression. The text remains static in position while the circle moves.
+*   **Lighting/Camera:** Unchanged flat digital lighting. Static camera.
+
+**Shot 3: Color Shift & Continuation (Frame #28)**
+*   **Timestamp:** 1.2s
+*   **Visual Composition:** A significant color change occurs. The background field has shifted from periwinkle blue to a vibrant, high-saturation green (approx. #33E666).
+*   **Subject/Action:** The yellow circle continues its trajectory, now positioned slightly right of the center.
+*   **Text Overlay:** The text updates again to "Groq AI Video Test Frame #28."
+*   **Lighting/Camera:** The lighting remains flat, but the change in background color alters the overall color temperature of the shot from cool to warm/green.
+
+**Analyst Note:**
+This sequence confirms a linear progression of a motion test. The "Frame #" in the text overlay correlates with the movement of the yellow circle, suggesting a constant velocity animation. The color shift at 1.2s indicates a scene change or a programmed color cycle in the test script. No fashion or jewelry analysis is applicable to this synthetic content.
+
+---
+
+## 🎬 Shot Segment: Keyframes #4 to #5
+
+**Cinematographer & Vision Analyst Report**
+**Subject:** AI Video Generation Test Sequence (Groq AI)
+**Batch:** 2/2 (Final Segment)
+
+Based on the provided keyframes, here is the precise visual breakdown of the final segment of the video. Please note that this footage is a synthetic technical test pattern, not a live-action fashion or jewelry shoot. Consequently, there are no human subjects, wardrobe, or jewelry present.
+
+### **Shot 1: Green Screen Test Pattern (Frame #42)**
+*   **Timestamp:** 00:01.8
+*   **Visual Composition:** The frame is dominated by a flat, high-saturation lime green background (approx. #50E350), typical of chroma keying or basic color testing.
+*   **Text Overlay:** In the upper-left quadrant, white sans-serif text reads: `Groq AI Video Test Frame #42`.
+*   **Graphic Elements:** A solid, bright yellow circle is positioned slightly right of the center and below the text line.
+*   **Camera & Lighting:** Static, orthographic view. Lighting is uniform and flat with zero shadows, indicating digital rendering rather than physical illumination.
+
+### **Shot 2: Red Screen Test Pattern (Frame #56)**
+*   **Timestamp:** 00:02.3
+*   **Visual Composition:** A hard cut transitions the background color from lime green to a flat, high-saturation salmon/coral red (approx. #F25C54).
+*   **Text Overlay:** The text in the upper-left quadrant updates to: `Groq AI Video Test Frame #56`.
+*   **Graphic Elements:** The solid yellow circle has shifted position. It is now located in the lower-right quadrant of the visible area, suggesting a programmed movement or a jump-cut in the test sequence.
+*   **Camera & Lighting:** Remains a static, orthographic view with uniform, shadowless digital lighting.
+
+***
+
+**Analyst Note:** The video concludes with these synthetic test frames, confirming the file is a diagnostic output for the Groq AI video generation engine, likely testing color consistency, text rendering, and object tracking (the yellow dot).

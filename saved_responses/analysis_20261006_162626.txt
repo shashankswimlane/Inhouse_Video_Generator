@@ -1,0 +1,107 @@
+=== GROQ VIDEO ANALYSIS REPORT ===
+Video File: video_20261006_162556_instagram_20261005_133052_0b35ca.mp4
+Model: openai/gpt-oss-120b
+Keyframes Extracted: 8
+
+=== USER PROMPT ===
+You are a professional video director and cinematographer specializing in 
+luxury jewellery commercials. I am uploading a jewellery video. Your job is to 
+reverse-engineer it into a COMPLETE, REPRODUCIBLE VIDEO GENERATION PROMPT that 
+another AI (like Sora, Veo, Runway, Kling) could use to recreate a nearly 
+identical video.
+
+Analyze the video frame-by-frame and output the following sections:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. VIDEO OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Total duration (seconds)
+- Total number of distinct shots/clips edited together
+- Overall style (cinematic, product demo, macro, lifestyle, etc.)
+- Aspect ratio and resolution estimate
+- Frame rate feel (smooth/slow-mo/normal)
+- Overall mood & color grade (warm, cool, high-contrast, pastel, etc.)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. SHOT-BY-SHOT BREAKDOWN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+For EACH shot (numbered), give me:
+
+- Shot # and timestamp (start–end)
+- Duration of shot
+- Camera angle: (top-down / 45° hero angle / eye-level / macro close-up / 
+  profile / low angle / rotating turntable / POV)
+- Camera movement: (static / slow pan left-right / orbit / dolly-in / 
+  dolly-out / tilt-up / tilt-down / zoom / handheld)
+- Camera distance: (extreme macro / close-up / medium / full product)
+- Lens feel: (macro 100mm / 50mm / wide / telephoto compression)
+- Lighting setup: (softbox overhead / rim light / spotlight / natural 
+  window light / ring light / studio 3-point / hard directional)
+- Background: (black velvet / white seamless / marble / silk fabric / 
+  model skin / gradient / reflective surface)
+- Focus: (shallow DOF with bokeh / deep focus / rack focus)
+- Subject action: (static product / slow rotation / model wearing / 
+  hand adjusting / light glinting / sparkle effect)
+- Post-effects: (slow motion / speed ramp / glint/flare overlay / 
+  particles / reflection / text overlay)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. JEWELLERY DETAILS CAPTURED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Type of jewellery (ring, necklace, earrings, bracelet, watch, etc.)
+- Metal color/finish (yellow gold, rose gold, white gold, platinum, silver)
+- Gemstones (type, cut, color, size, arrangement)
+- Design details (filigree, halo, solitaire, pavé, engraving)
+- Key features the camera emphasizes (sparkle, clasp, engraving, setting)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. EDITING STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- How many clips were stitched into the final video
+- Transition types between shots (hard cut / fade / whip pan / match cut)
+- Pacing (fast cuts / slow luxurious cuts)
+- Music/sound vibe (if inferable: orchestral, ambient, ASMR sparkle)
+- Any text overlays, logos, or CTAs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. FINAL RECREATION PROMPT (THE MOST IMPORTANT PART)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Now write ONE master prompt (200–400 words) that I can paste into a video 
+generation AI to recreate this video. It must include:
+- Subject description (jewellery type, metal, stones, finish)
+- Environment & background
+- Lighting style
+- Camera angle, lens, and movement per shot
+- Number of shots and how they're edited together
+- Duration and pacing
+- Color grade and mood
+- Any effects (sparkle, glint, slow-mo)
+
+Format the final prompt as clean, comma-separated cinematic directions.
+
+=== ANALYSIS RESPONSE ===
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+1. VIDEO OVERVIEW  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**  
+
+- **Total duration:** ~15 seconds (the last keyframe is at 14.5 s).  
+- **Number of distinct shots/clips:** 8 shots (each roughly 1.8‑2.2 s).  
+- **Overall style:** High‑end luxury product macro, cinematic‑style commercial for Instagram (vertical 9:16).  
+- **Aspect ratio & resolution estimate:** 9:16 (vertical) – 1080 × 1920 px (typical Instagram Reel).  
+- **Frame‑rate feel:** 30 fps, smooth motion; a few shots use subtle slow‑motion (≈0.8×) for sparkle emphasis.  
+- **Overall mood & colour grade:** Cool‑white, high‑contrast with a slight teal‑blue tint; deep blacks, crisp whites, and a subtle vignette to draw the eye to the jewellery.  
+
+---
+
+**━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+2. SHOT‑BY‑SHOT BREAKDOWN  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━**  
+
+| # | Timestamp (s) | Duration | Angle | Movement | Distance | Lens | Lighting | Background | Focus | Subject Action | Post‑effects |
+|---|---------------|----------|-------|----------|----------|------|----------|------------|-------|----------------|--------------|
+| 1 | 0.0 – 2.0 | 2 s | Macro top‑down (45° hero) | Static, slight dolly‑in (0.2 m) | Extreme macro (≈2 cm) | 100 mm macro, f/2.8 | Soft‑box + rim light (key from top‑left, rim from right) | Black velvet matte | Shallow DOF, creamy bokeh | Product (gold necklace) centered, slow rotation on turntable (≈10 rpm) | Subtle glint flare on pendant, slow‑mo 0.9× |
+| 2 | 2.1 – 4.2 | 2.1 s | Eye‑level close‑up | Slow orbit (horizontal 15°) | Close‑up (≈5 cm) | 50 mm prime, f/1.8 | Ring light + back‑light rim | White seamless paper | Shallow DOF, focus pull from chain to pendant | Model’s hand lifts necklace, gentle tilt | Light particle sparkle overlay |
+| 3 | 4.3 – 6.3 | 2 s | Profile side view | Tilt‑up (from chain to clasp) | Medium (≈10 cm) | 85 mm portrait, f/2 | Soft‑box left, hair‑light right | Marble slab (light gray) | Medium depth, crisp edges | Necklace draped over marble, clasp highlighted | Quick flash of lens flare on clasp |
+| 4 | 6.4 – 8.4 | 2 s | Macro overhead | Static, slight dolly‑out | Extreme macro (≈2 cm) | 100 mm macro, f/2.5 | Dual soft‑boxes (45°) + subtle rim | Black velvet | Shallow DOF, bokeh circles | Focus on a single sapphire stone, rotate slowly | Slow‑mo 0.8×, sparkle particles around stone |
+| 5 | 8.5 – 10.5 | 2 s | Low angle hero | Slow pan left‑right (≈10°) | Full product (necklace fully visible) | 35 mm wide, f/2.2 | 3‑point studio (key, fill, rim) | Gradient gray‑to‑black | Deep focus (product fully sharp) | Necklace gently sways on a clear acrylic stand | Subtle motion‑blur tail on moving links |
+| 6 | 10.6 – 12.4 | 1.8 s | POV (hand‑holding) | Hand‑held slight jitter | Close‑up (≈6 cm) | 50 mm, f/1.8 | Natural window light + reflector | Soft pastel gradient (peach) |

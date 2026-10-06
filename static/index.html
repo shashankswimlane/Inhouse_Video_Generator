@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groq AI Video Intelligence Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="app-background">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="brand">
+                <div class="brand-icon">⚡</div>
+                <div class="brand-text">
+                    <h1>Groq <span>Video AI</span></h1>
+                    <p class="subtitle">Multimodal Keyframe Analysis & LLM Scene Understanding</p>
+                </div>
+            </div>
+            <div class="header-badges">
+                <span class="badge badge-primary">⚡ Powered by Groq Llama 3.2 Vision</span>
+                <span class="badge badge-outline" id="statusBadge">Ready</span>
+            </div>
+        </header>
+
+        <main class="main-grid">
+            <!-- Left Column: Upload & Controls -->
+            <section class="card glass-card upload-section">
+                <div class="card-header">
+                    <h2><span class="step-num">1</span> Upload MP4 Video</h2>
+                    <p>Select or drag & drop a video file for analysis</p>
+                </div>
+
+                <!-- Dropzone -->
+                <div class="dropzone" id="dropzone">
+                    <input type="file" id="videoInput" accept="video/mp4,video/quicktime,video/x-msvideo,video/webm" hidden>
+                    <div class="dropzone-content" id="dropzonePrompt">
+                        <div class="upload-icon-circle">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="17 8 12 3 7 8"></polyline>
+                                <line x1="12" y1="3" x2="12" y2="15"></line>
+                            </svg>
+                        </div>
+                        <h3>Drop your MP4 video here</h3>
+                        <p class="file-hint">Supports MP4, MOV, AVI, WEBM (Up to 100MB)</p>
+                        <button class="btn btn-secondary" id="browseBtn">Browse Files</button>
+                    </div>
+
+                    <!-- Uploading Spinner -->
+                    <div class="upload-progress hidden" id="uploadProgress">
+                        <div class="spinner"></div>
+                        <p id="uploadStatusText">Uploading video to server...</p>
+                    </div>
+                </div>
+
+                <!-- Video Preview Box -->
+                <div class="video-preview-container hidden" id="videoPreviewContainer">
+                    <video id="videoPlayer" controls preload="metadata"></video>
+                    <div class="video-meta-bar">
+                        <div class="meta-item">
+                            <span class="meta-label">File:</span>
+                            <span class="meta-val" id="metaFileName">-</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Size:</span>
+                            <span class="meta-val" id="metaFileSize">-</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Duration:</span>
+                            <span class="meta-val" id="metaDuration">-</span>
+                        </div>
+                        <button class="btn-icon" id="removeVideoBtn" title="Remove Video">✕</button>
+                    </div>
+                </div>
+
+                <!-- Analysis Prompt Form -->
+                <div class="analysis-controls">
+                    <div class="card-header border-top">
+                        <h2><span class="step-num">2</span> Analysis Settings</h2>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Quick Presets</label>
+                        <div class="preset-pills">
+                            <button class="preset-btn active" data-prompt="Provide an exhaustive shot-by-shot timeline breakdown for the ENTIRE video. Cover every scene transition, timestamp, action sequence, character movement, camera angle, and audio atmosphere.">🔥 Exhaustive Full Video Timeline</button>
+                            <button class="preset-btn" data-prompt="Identify all key objects, people, wardrobe details, text/graphics, and environment settings across the entire video.">🔍 Objects & Visual Assets</button>
+                            <button class="preset-btn" data-prompt="Describe the camera movements, shot framing, lighting color palette, and visual mood across all keyframes.">📹 Camera & Lighting Analysis</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="customPrompt">Custom Prompt / Questions for Groq Vision</label>
+                        <textarea id="customPrompt" rows="3" placeholder="Ask Groq anything about this video (e.g., 'Give me a second-by-second breakdown of the entire video')..."></textarea>
+                    </div>
+
+                    <div class="form-group row-group">
+                        <div>
+                            <label for="numFramesSelect">Keyframe Sampling Density</label>
+                            <select id="numFramesSelect">
+                                <option value="-1" selected>⚡ Adaptive (1 Frame / Sec - Full Video)</option>
+                                <option value="12">12 Keyframes (High Density)</option>
+                                <option value="20">20 Keyframes (Ultra Density)</option>
+                                <option value="30">30 Keyframes (Deep Detail)</option>
+                                <option value="50">50 Keyframes (Maximum Precision)</option>
+                            </select>
+                        </div>
+
+                        <button class="btn btn-primary btn-large glow-btn" id="analyzeBtn" disabled>
+                            <span>⚡ Analyze Full Video with Groq</span>
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Right Column: Results & Keyframe Preview -->
+            <section class="card glass-card results-section">
+                <div class="card-header">
+                    <h2><span class="step-num">3</span> AI Analysis Report</h2>
+                    <p>Insights powered by Groq Llama 3.2 Multimodal Vision</p>
+                </div>
+
+                <!-- Initial Empty State -->
+                <div class="empty-state" id="emptyState">
+                    <div class="empty-icon">🎥</div>
+                    <h3>No Analysis Yet</h3>
+                    <p>Upload an MP4 video on the left and click "Analyze Video" to generate AI vision insights.</p>
+                </div>
+
+                <!-- Loading State -->
+                <div class="loading-state hidden" id="loadingState">
+                    <div class="ai-loader">
+                        <div class="loader-ring"></div>
+                        <div class="loader-logo">⚡</div>
+                    </div>
+                    <h3 id="loaderTitle">Extracting Keyframes...</h3>
+                    <p id="loaderSub">OpenCV is grabbing evenly spaced video frames</p>
+                    <div class="step-tracker">
+                        <span class="step-dot active" id="dot1"></span>
+                        <span class="step-dot" id="dot2"></span>
+                        <span class="step-dot" id="dot3"></span>
+                    </div>
+                </div>
+
+                <!-- Results Output -->
+                <div class="results-container hidden" id="resultsContainer">
+                    <!-- Keyframes Gallery -->
+                    <div class="keyframes-section">
+                        <h4>Extracted Video Keyframes (<span id="keyframeQty">0</span>)</h4>
+                        <div class="keyframe-grid" id="keyframeGrid"></div>
+                    </div>
+
+                    <!-- Report Content -->
+                    <div class="report-box">
+                        <div class="report-header">
+                            <span class="report-model-tag" id="reportModelTag">Model: openai/gpt-oss-120b</span>
+                            <div class="report-actions">
+                                <button class="btn btn-secondary btn-sm" id="copyReportBtn">📋 Copy Report</button>
+                            </div>
+                        </div>
+                        <div class="report-body markdown-body" id="reportMarkdown"></div>
+                    </div>
+
+                    <!-- Interactive Context Memory Chat -->
+                    <div class="chat-context-box">
+                        <div class="chat-header">
+                            <div class="chat-title">
+                                <h3>💬 Interactive Video Q&A Assistant</h3>
+                                <span class="chat-badge">🧠 Memory Context Active</span>
+                            </div>
+                            <p>Ask follow-up questions or request revisions based on this video report</p>
+                        </div>
+
+                        <!-- Chat Messages Thread -->
+                        <div class="chat-messages" id="chatThread">
+                            <div class="chat-msg ai-msg">
+                                <div class="msg-avatar">⚡</div>
+                                <div class="msg-bubble">
+                                    I have loaded this video report into memory context! Ask me any follow-up questions, like <em>"Draft a video prompt for scene 2"</em>, <em>"Elaborate on audio cues"</em>, or <em>"Explain what happens at 0:10"</em>.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chat Input Box -->
+                        <div class="chat-input-area">
+                            <input type="text" id="chatInput" placeholder="Ask a follow-up question about this video analysis..." autocomplete="off">
+                            <button class="btn btn-primary" id="sendChatBtn">
+                                <span>Send ➔</span>
+                            </button>
+                        </div>
+
+                        <!-- Quick Follow-up Chips -->
+                        <div class="quick-chips">
+                            <button class="chip-btn" data-question="Draft an AI Video Generation prompt based on this analysis report.">🎬 Generate Video Prompt</button>
+                            <button class="chip-btn" data-question="Can you elaborate on the lighting and color grading notes for this scene?">🎨 Color & Lighting Details</button>
+                            <button class="chip-btn" data-question="Summarize the main action in 3 bullet points.">⚡ 3-Bullet Summary</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

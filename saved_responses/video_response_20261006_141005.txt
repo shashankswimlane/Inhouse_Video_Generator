@@ -1,0 +1,127 @@
+=== INPUT VIDEO PROMPT ===
+A 13-year-old Jewish girl with dark hair and a yellow Star of David sewn onto her coat walks down a quiet Amsterdam street at dawn. She is overdressed for the weather, wearing multiple layers of clothing that make her movements stiff. Warm rain falls steadily, slicking the cobblestones. She carries a school satchel clutched tight against her chest. Her expression is a mix of fear and forced composure. The camera follows her from a slight distance, keeping the Star of David visible on her back. 1940s Amsterdam architecture, brick buildings with dark windows, a bicycle leaning against a wall. Ambient audio: steady rain, distant church bells, soft footsteps on wet stone. The girl murmurs to herself: "This is the beginning. Everything is about to change." Moody, desaturated color palette with warm amber tones from streetlamps reflecting on wet pavement. Shallow depth of field, slow tracking shot.
+
+=== GROQ LLM RESPONSE (openai/gpt-oss-120b) ===
+**Video Prompt Decomposition – “A Quiet Dawn in 1940‑s Amsterdam”**  
+*(All elements are organized for direct import into a generative‑video pipeline or for use by a live‑action crew.)*
+
+---
+
+## 1. Global Production Parameters
+| Parameter | Value / Note |
+|-----------|--------------|
+| **Resolution** | 4 K (3840 × 2160) – Ultra‑HD to capture fine cobblestone detail and grainy 1940‑s texture |
+| **Aspect Ratio** | 2.39:1 (CinemaScope) – Wide‑screen look that emphasizes the street’s depth |
+| **Frame Rate** | 24 fps (filmic) – natural motion, slight motion‑blur for rain drops |
+| **Duration** | 22 seconds (full shot) |
+| **Style / Look** | Period‑drama, desaturated‑warm palette (muted blues + amber street‑lamp glints). Grain‑type film stock emulating 1930‑40 black‑white‑to‑sepia transition (low‑contrast, subtle vignetting). |
+| **Depth of Field** | Shallow – focus plane on the girl’s back/Star of David; foreground/ background softly blurred but still recognizable. |
+| **Camera Sensor** | 35 mm full‑frame emulation (f/1.8 – f/2.0) for shallow DOF. |
+| **Lens** | 35 mm prime (field of view ~ 54° on 4K) – mimics human perspective, good for tracking. |
+| **Motion Blur** | 1/48 s (≈½ frame) – natural for 24 fps, accentuates rain streaks. |
+| **VFX / Post‑FX** | • Subtle film grain (ISO 800‑1200) <br>• Light rain particle system (steady, medium intensity) <br>• Wet‑surface specular reflections on cobblestones <br>• Slight chromatic‑aberration on street‑lamp glows <br>• Optional “dust‑film” overlay for authenticity |
+
+---
+
+## 2. Scene Breakdown & Keyframe Timeline  
+
+| Timecode | Shot Description | Visual Details | Audio Cue |
+|----------|-------------------|----------------|-----------|
+| **0:00‑0:02** | **Establishing Wide** – Camera sits on a low tripod, static, showing the quiet Amsterdam street at dawn. | • Brick facades, dark windows, early‑morning amber haze.<br>• A lone bicycle leans against a wall, its spokes glinting.<br>• Rain falls uniformly, puddles form in cobblestone gaps.<br>• Street‑lamp(s) emit warm amber pools reflecting on wet stone. | • Ambient rain (steady, medium‑volume).<br>• Distant church bells (soft, tolling ~1 ×/4 sec). |
+| **0:02‑0:03** | **Insert – Star of David** – Tight focus on the yellow Star of David sewn onto the back of the girl’s coat. | • Yellow thread slightly faded, standing out against dark wool.<br>• Camera at ~45° angle, shallow DOF isolates the emblem. | Same rain + faint foot‑step echo (wet stone). |
+| **0:03‑0:05** | **Medium‑Shot – Girl Enters Frame** – The girl appears from the left side of the frame, walking toward the camera. | • 13‑yr‑old, dark hair in a simple braid, coat layered (over‑coat, wool sweater, scarf).<br>• Heavy satchel clutched to chest; shoulders hunched, movement stiff.<br>• Face partially turned toward camera, expression: fear + forced composure. | Rain continues, soft “squelch” of shoes on wet stone, faint breath (cold air). |
+| **0:05‑0:07** | **Camera Start Tracking** – Dolly or virtual “gimbal” begins a slow, continuous pull‑back while maintaining a slight lateral offset (≈30 cm right of the girl’s spine). | • Keep the Star of David centered in the lower‑third.<br>• Background buildings slide gently; bicycle remains in peripheral blur. | Same rain, plus a faint murmur: “This is the beginning…”. |
+| **0:07‑0:10** | **Close‑up on Face** – Camera gently rolls to a tighter 2‑shot (girl + Star). | • Eyes darting left/right, lips moving with the line.<br>• Light from street‑lamp catches wet hair strands. | Girl’s line delivered clearly (dry‑reverb to simulate distance). |
+| **0:10‑0:13** | **Wide‑Tracking Continuation** – Camera continues moving backward, revealing more of the street length (≈5 m). | • Rain‑slicked cobblestones reflect amber glow, creating long streaks.<br>• Shadows of nearby shutters elongated by dawn light. | Rain intensifies slightly (visual emphasis), church bells faintly echoing. |
+| **0:13‑0:16** | **Environmental Detail** – Quick cut to a low‑angle of the bicycle leaning, water pooling on its tires. | • Bicycle frame rusted, chain glistening.<br>• Street‑lamp halo visible behind. | Soft clink of metal as the rain hits the bike. |
+| **0:16‑0:20** | **Return to Girl – Final Tracking** – Camera steadies, following the girl’s last steps as she disappears around a corner. | • Her silhouette becomes a dark shape against the amber‑lit street.<br>• The Star of David remains faintly visible on the back as she moves out of focus. | Rain continues, faint echo of footsteps fading, church bells toll once more. |
+| **0:20‑0:22** | **Fade‑out** – Slow dissolve to black while rain sound lingers for ~1 s. | • No visual; final auditory impression of rain. | Rain sound tail, then silence. |
+
+---
+
+## 3. Camera Movement & Mechanics  
+
+| Segment | Camera Action | Technical Instructions |
+|---------|----------------|------------------------|
+| **0:00‑0:02** | Static wide; tripod height ~ 50 cm (eye‑level of a child). | Lock‑down, no motion. |
+| **0:02‑0:05** | Slight dolly forward to keep the girl centered as she enters. | Use a smooth motorized dolly or virtual “track” at 0.15 m/s. |
+| **0:05‑0:10** | Continuous tracking backward while slightly offset laterally (30 cm). | Maintain a constant distance of 2.2 m from the subject; offset to keep the Star in lower‑third rule. |
+| **0:10‑0:13** | Steady follow‑through – keep a constant speed (0.12 m/s) to preserve the “slow tracking” feel. | Gimbal stabilization to avoid jitter; optional slight 2‑degree roll to mimic handheld “film‑ic” aesthetic. |
+| **0:13‑0:16** | Low‑angle static for bicycle detail. | Fixed tripod, lens height ~30 cm, tilt upward 15°. |
+| **0:16‑0:20** | Return to tracking – follow the girl as she exits. | Same speed as earlier, but now moving forward (camera moving towards the corner). |
+| **0:20‑0:22** | Fade‑out – no camera, just a post‑production dissolve. | N/A |
+
+**Stabilisation Note:** Even though a shallow DOF is used, any camera shake will be amplified in the background blur; ensure a gimbal or steady‑cam rig for all moving segments.
+
+---
+
+## 4. Lighting & Color Design  
+
+| Element | Light Source | Settings & Colour |
+|---------|--------------|-------------------|
+| **Street‑lamps** | Practical amber LED‑styled lamps (temperature ~ 2100 K). | Intensity ~ 35 % of key light; create warm pools (~ 300–400 lux) that reflect on wet stone. |
+| **Ambient Dawn Sky** | Soft, diffused blue‑grey fill (temperature ~ 6500 K) – barely visible, just enough for subtle rim‑light on hair. | 10 % intensity; adds cool contrast to warm amber. |
+| **Key Light on Girl** | Simulated “street‑lamp bounce” – a soft, warm rim from the left side. | Use a 2×1 softbox with gels (CTB + amber) at ~15 % power. |
+| **Back‑light (Star of David)** | Small LED panel behind the girl, filtered through a warm gel, to accentuate the yellow emblem. | 5 % power, positioned ~1 m behind, angled 45°. |
+| **Rain Speculars** | Add “glitter” particles with a specular shader in post‑production; no physical lights needed. |
+| **Color Grading** | Desaturated base (≈ 30 % saturation), lift shadows slightly, add amber “look‑up table” (LUT) for street‑lamp reflections. | Final grade: –15 % overall saturation, +0.3 contrast, +0.2 gamma lift on mid‑tones, amber tint on highlights. |
+
+---
+
+## 5. Audio Blueprint  
+
+| Layer | Description | Timing |
+|-------|-------------|--------|
+| **Rain** | Continuous steady rain (medium‑heavy) with visible splatter on stone. | 0:00‑end |
+| **Footsteps** | Soft “squelch” of wet leather shoes on cobblestones; muted to keep focus on the girl’s internal state. | 0:03‑0:20 |
+| **Church Bells** | Distant, low‑frequency toll (single note) every ~4 seconds; adds period authenticity. | 0:00‑0:22 (fade in/out) |
+| **Ambient Street‑lamp Hum** | Very low‑level electrical hum, barely audible, adds texture. | 0:00‑end |
+| **Girl’s Murmur** | “This is the beginning. Everything is about to change.” Delivered in a whispered, tremulous tone; slight reverb to simulate open street. | 0:08‑0:10 (full line) |
+| **Background Noise** | Distant bicycle wheel squeak, occasional car (1910‑30s model) far off; kept very low. | Optional, 0:12‑0:16 |
+| **Fade‑out Rain** | Rain continues for ~1 second after visual fade, then silence. | 0:21‑0:22 |
+
+**Mixing Tips:**  
+- Keep the rain at –6 dB RMS, footsteps at –12 dB, bells at –9 dB, and the girl’s voice at –3 dB (so her line dominates).  
+- Apply a subtle high‑pass (80 Hz) on rain to avoid low‑frequency rumble.  
+- Use a short (≈120 ms) plate reverb on the voice, low‑mix (15 %) to keep it intimate.
+
+---
+
+## 6. VFX & Post‑Production Checklist  
+
+1. **Rain Particle System** – 3‑D volumetric particles with motion blur; interact with ground (splashes) and the girl’s coat (wet spots).  
+2. **Wet‑Surface Shader** – Increase specular reflectivity on cobblestones; add subtle caustic light from street‑lamps.  
+3. **Star of David Highlight** – Slight emissive “glow” (0.2 % intensity) to keep it visible against the dark coat, without looking artificial.  
+4. **Film Grain & Dust** – Overlay 8 mm‑style grain, occasional dust specks (randomized).  
+5. **Color Grading** – Apply the amber‑warm LUT; final desaturation to 30 % (maintain enough colour for the Star).  
+6. **Depth‑of‑Field Blur** – Render shallow DOF in‑camera or simulate in post using a Z‑depth map to keep background soft but still recognizable.  
+7. **Audio Sync** – Align footstep “squelch” with each contact point; automate slight volume variation as the girl’s weight shifts.  
+
+---
+
+## 7. Sensitivity & Historical Context Note  
+
+- The scene evokes a **World‑War‑II** atmosphere (1939‑44) with a young Jewish child.  
+- **Content Warning:** The visual includes a Star of David on clothing in a period of persecution; ensure the narrative context is respectful and historically aware.  
+- **Compliance:** No graphic violence, hate symbols used for extremist propaganda, or disallowed content is present. The depiction serves a **dramatic, educational, or memorial** purpose.  
+
+---
+
+## 8. Export Settings  
+
+| Parameter | Value |
+|-----------|-------|
+| **Codec** | Apple ProRes 422 HQ (intermediate) – retains high colour depth for grading. |
+| **Bitrate** | ~ 220 Mbps (4K @ 24 fps). |
+| **Audio** | 48 kHz, 24‑bit PCM (uncompressed) |
+| **File Format** | QuickTime (.mov) |
+| **Colour Space** | Rec. 709 (with a separate Log‑C version for grading if needed). |
+| **Delivery** | Provide a **proxy MP4** (1080 p, H.264) for quick review, plus the full‑resolution master. |
+
+---
+
+### Quick Reference – Shot List
+
+| # | Time | Shot | Camera | Focus | Key Visual | Audio |
+|---|------|------|--------|-------|------------|-------|
+| 1 | 0‑2 s | Wide establishing | Static

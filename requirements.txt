@@ -1,0 +1,12 @@
+groq
+python-dotenv
+replicate
+requests
+fastapi
+uvicorn
+python-multipart
+opencv-python-headless
+pillow
+
+
+

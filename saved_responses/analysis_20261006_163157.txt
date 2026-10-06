@@ -1,0 +1,65 @@
+=== GROQ FULL VIDEO ANALYSIS REPORT ===
+Video File: video_20261006_163153_sample_test_video.mp4
+Video Duration: 3.0 seconds
+Model: openai/gpt-oss-120b
+Keyframes Sampled: 5
+
+=== USER PROMPT ===
+Provide an exhaustive shot-by-shot timeline breakdown for the ENTIRE video.
+
+=== FULL VIDEO ANALYSIS ===
+**Important note:** I don’t have the ability to view or directly analyze video files, so I can’t see the actual visual content of *video_20261006_163153_sample_test_video.mp4*. To give you a truly **exhaustive, shot‑by‑shot timeline** (including details such as camera moves, framing, subjects, lighting, action, audio cues, etc.), I would need a description of what appears in each keyframe or a frame‑by‑frame transcript.
+
+Below is a template you can fill in (or use as a checklist) to produce the detailed breakdown you’re looking for. Once you provide the missing visual information, I can expand each entry into a full narrative with timestamps, shot types, and analytical commentary.
+
+---
+
+## Template for a Complete Shot‑by‑Shot Timeline (0 – 3 seconds)
+
+| Timestamp | Duration (approx.) | Shot Type / Camera Setup | Visual Elements (subjects, props, background) | Action / Motion | Lighting & Color | Audio (dialogue, SFX, music) | Notes / Interpretation |
+|-----------|-------------------|--------------------------|-----------------------------------------------|----------------|------------------|------------------------------|------------------------|
+| 0.000 s   | 0.6 s             | e.g., **Establishing wide**; static tripod | … | … | … | … | … |
+| 0.600 s   | 0.6 s             | e.g., **Medium close‑up**; dolly in | … | … | … | … | … |
+| 1.200 s   | 0.6 s             | e.g., **Insert**; handheld shake | … | … | … | … | … |
+| 1.800 s   | 0.5 s             | e.g., **Cutaway**; rack focus | … | … | … | … | … |
+| 2.300 s   | 0.7 s (to 3.0 s)  | e.g., **Close‑up**; push‑in | … | … | … | … | … |
+
+### How to Populate the Table
+
+1. **Timestamp & Duration** – Use the keyframe timestamps you already have (0.0 s, 0.6 s, 1.2 s, 1.8 s, 2.3 s) and estimate the length of each shot until the next keyframe (or the video end at 3.0 s).
+
+2. **Shot Type / Camera Setup** – Identify whether the shot is a wide, medium, close‑up, extreme close‑up, etc., and note any camera movement (pan, tilt, dolly, crane, handheld, static).
+
+3. **Visual Elements** – List the main subjects (people, objects, animals), their positions in the frame, any notable background details, and any on‑screen graphics or text.
+
+4. **Action / Motion** – Describe what is happening: walking, gesturing, object movement, facial expressions, transitions (cut, dissolve, wipe), special effects, etc.
+
+5. **Lighting & Color** – Note the lighting style (natural, key‑light, back‑light, high‑key, low‑key), color palette, any color grading, shadows, or highlights that affect mood.
+
+6. **Audio** – Capture any spoken dialogue, sound effects, ambient noise, or musical cues that accompany the visual.
+
+7. **Notes / Interpretation** – Provide analytical insights: narrative purpose, emotional tone, symbolism, continuity, or any technical observations (e.g., depth of field, focus pulls).
+
+---
+
+### Example (filled for a hypothetical 3‑second clip)
+
+| Timestamp | Duration | Shot Type | Visual Elements | Action | Lighting & Color | Audio | Notes |
+|-----------|----------|-----------|----------------|--------|------------------|-------|-------|
+| 0.000 s   | 0.6 s    | Wide establishing, static tripod | Urban street, morning light, a cyclist enters from left | Cyclist pedals forward, camera stays still | Soft natural daylight, cool blue‑gray tones | Ambient traffic hum, faint birds | Sets location and time of day |
+| 0.600 s   | 0.6 s    | Medium close‑up, dolly in | Cyclist’s face, determined expression | Cyclist looks up, slight smile | Key light from streetlamp, warm amber fill | Light wind whoosh, subtle music cue | Highlights character’s resolve |
+| 1.200 s   | 0.6 s    | Insert, handheld shake | Close‑up of a coffee cup on a café table | Hand reaches for cup, coffee steam rises | Warm indoor lighting, amber hue | Café chatter, clink of cups | Emphasizes everyday routine |
+| 1.800 s   | 0.5 s    | Cutaway, rack focus | Background window shows sunrise | Sunlight brightens, focus shifts to window | Transition from warm to bright gold | Soft crescendo in music | Symbolic “new beginning” |
+| 2.300 s   | 0.7 s    | Close‑up, push‑in | Cyclist’s hand gripping handlebar | Hand tightens, camera pushes in | High contrast, rim light on hand | Heartbeat thump, music climax | Builds tension for next scene |
+
+---
+
+## Next Steps
+
+1. **Watch the video** and note what you see at each keyframe (0.0 s, 0.6 s, 1.2 s, 1.8 s, 2.3 s) and the intervals between them.
+2. **Fill in the table** using the guidelines above, or provide a written description for each segment.
+3. **Send the completed information** back to me, and I’ll turn it into a polished, analytical shot‑by‑shot breakdown—including any narrative or stylistic observations you might need for editing, storyboarding, or critique.
+
+If you prefer, you can also give me a brief verbal rundown (e.g., “At 0 s a person walks into frame from the left, at 0.6 s the camera pans right to follow them…”) and I’ll expand it into the full timeline.
+
+Let me know how you’d like to proceed!

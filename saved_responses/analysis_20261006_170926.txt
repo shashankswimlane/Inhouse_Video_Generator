@@ -1,0 +1,235 @@
+=== GROQ QWEN MULTIMODAL BATCHED VISION REPORT ===
+Video File: video_20261006_170820_instagram_20261005_133052_0b35ca.mp4
+Video Duration: 19.96 seconds
+Model: qwen/qwen3.8-27b
+Total Keyframes Sampled: 19
+Batches Processed (3 images/batch): 7
+
+=== USER PROMPT ===
+You are a professional video director and cinematographer specializing in 
+luxury jewellery commercials. I am uploading a jewellery video. Your job is to 
+reverse-engineer it into a COMPLETE, REPRODUCIBLE VIDEO GENERATION PROMPT that 
+another AI (like Sora, Veo, Runway, Kling) could use to recreate a nearly 
+identical video.
+
+Analyze the video frame-by-frame and output the following sections:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. VIDEO OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Total duration (seconds)
+- Total number of distinct shots/clips edited together
+- Overall style (cinematic, product demo, macro, lifestyle, etc.)
+- Aspect ratio and resolution estimate
+- Frame rate feel (smooth/slow-mo/normal)
+- Overall mood & color grade (warm, cool, high-contrast, pastel, etc.)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. SHOT-BY-SHOT BREAKDOWN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+For EACH shot (numbered), give me:
+
+- Shot # and timestamp (start–end)
+- Duration of shot
+- Camera angle: (top-down / 45° hero angle / eye-level / macro close-up / 
+  profile / low angle / rotating turntable / POV)
+- Camera movement: (static / slow pan left-right / orbit / dolly-in / 
+  dolly-out / tilt-up / tilt-down / zoom / handheld)
+- Camera distance: (extreme macro / close-up / medium / full product)
+- Lens feel: (macro 100mm / 50mm / wide / telephoto compression)
+- Lighting setup: (softbox overhead / rim light / spotlight / natural 
+  window light / ring light / studio 3-point / hard directional)
+- Background: (black velvet / white seamless / marble / silk fabric / 
+  model skin / gradient / reflective surface)
+- Focus: (shallow DOF with bokeh / deep focus / rack focus)
+- Subject action: (static product / slow rotation / model wearing / 
+  hand adjusting / light glinting / sparkle effect)
+- Post-effects: (slow motion / speed ramp / glint/flare overlay / 
+  particles / reflection / text overlay)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. JEWELLERY DETAILS CAPTURED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Type of jewellery (ring, necklace, earrings, bracelet, watch, etc.)
+- Metal color/finish (yellow gold, rose gold, white gold, platinum, silver)
+- Gemstones (type, cut, color, size, arrangement)
+- Design details (filigree, halo, solitaire, pavé, engraving)
+- Key features the camera emphasizes (sparkle, clasp, engraving, setting)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. EDITING STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- How many clips were stitched into the final video
+- Transition types between shots (hard cut / fade / whip pan / match cut)
+- Pacing (fast cuts / slow luxurious cuts)
+- Music/sound vibe (if inferable: orchestral, ambient, ASMR sparkle)
+- Any text overlays, logos, or CTAs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. FINAL RECREATION PROMPT (THE MOST IMPORTANT PART)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Now write ONE master prompt (200–400 words) that I can paste into a video 
+generation AI to recreate this video. It must include:
+- Subject description (jewellery type, metal, stones, finish)
+- Environment & background
+- Lighting style
+- Camera angle, lens, and movement per shot
+- Number of shots and how they're edited together
+- Duration and pacing
+- Color grade and mood
+- Any effects (sparkle, glint, slow-mo)
+
+Format the final prompt as clean, comma-separated cinematic directions.
+
+=== UNIFIED VISION REPORT ===
+# 🌟 Master Video Commercial Synthesis
+
+**Executive Commercial Summary**
+
+This 20-second cinematic lifestyle commercial for Tanishq’s "Riva'ah Wedding Signatures" collection targets the modern Indian bride seeking a blend of traditional opulence and contemporary elegance. The narrative arc moves from intimate product details to a broader lifestyle context, culminating in an emotional brand reveal. The visual language is defined by soft, golden-hour lighting, shallow depth of field, and a warm color palette dominated by yellows, pinks, and lush greens. The final shot anchors the brand identity, positioning the jewelry not merely as an accessory, but as an essential component of the marriage ritual itself. The pacing is deliberate and romantic, designed to evoke feelings of joy, celebration, and high-end luxury.
+
+**Jewelry & Styling Audit**
+
+The featured jewelry is heavy, traditional Indian bridal gold (22K), characterized by intricate filigree work. Key pieces include a Maang Tikka, large Jhumka earrings accented with red rubies/garnets, and a multi-strand Kundan/Polki necklace set featuring pearls. The styling emphasizes the contrast between the vibrant yellow and pink silk saree and the warm gold tones. The "lifestyle" approach ensures the jewelry is seen in motion and context, highlighting how the pieces complement the bride’s expression and attire rather than dominating the frame.
+
+**Master AI Video Generation Prompt**
+
+**Cinematic Lifestyle Jewelry Commercial, Final Shot.**
+
+**Subject:** A beautiful Indian bride in a vibrant yellow and pink silk saree, wearing heavy traditional gold bridal jewelry. She is wearing a maang tikka, large jhumka earrings with red ruby accents, a multi-layered gold choker necklace with pearls, and a large statement ring. She is smiling warmly, looking slightly off-camera to the right. To her left, slightly out of focus, is a bridesmaid in a cream outfit, also wearing gold jewelry, looking at the bride with a smile.
+
+**Environment:** Outdoor garden setting with lush green foliage in the background. The background is heavily blurred (bokeh) to isolate the subjects.
+
+**Lighting:** Soft, natural daylight, golden hour warmth. The light is diffused, creating a romantic and ethereal atmosphere. The gold jewelry catches the light subtly, showing richness without harsh glare.
+
+**Camera:** 50mm portrait lens, shallow depth of field. Medium close-up shot framing the subjects from the chest up. The camera is static or has a very subtle, slow drift to the right.
+
+**Action:** The bride gently touches her chest with her hand, showcasing the ring. She maintains a joyful, serene expression.
+
+**Text Overlay:** White, elegant serif text fades in at the center. Top line: "For marriages crafted by you". Bottom line: Logo "TANISHQ RIVA'AH Wedding Signatures".
+
+**Style & Mood:** High-end, luxurious, romantic, celebratory. Color grade is warm, with enhanced yellows and greens. The video ends with a clean, professional fade to black.
+
+**Technical:** 4K, 24fps, high dynamic range.
+
+---
+
+# 📸 Shot-by-Shot Visual Breakdown (7 Batches, 19 Keyframes)
+
+## 🎬 Shot Segment: Keyframes #1 to #3
+
+[Error analyzing batch: Error code: 413 - {'error': {'message': 'Request too large for model `qwen/qwen3.8-27b` in organization `org_01kqyjs1jpfwvazwnjsarzgf4t` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Requested 7212, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]
+
+---
+
+## 🎬 Shot Segment: Keyframes #4 to #6
+
+[Error analyzing batch: Error code: 413 - {'error': {'message': 'Request too large for model `qwen/qwen3.8-27b` in organization `org_01kqyjs1jpfwvazwnjsarzgf4t` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Requested 7212, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]
+
+---
+
+## 🎬 Shot Segment: Keyframes #7 to #9
+
+[Error analyzing batch: Error code: 413 - {'error': {'message': 'Request too large for model `qwen/qwen3.8-27b` in organization `org_01kqyjs1jpfwvazwnjsarzgf4t` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Requested 7212, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]
+
+---
+
+## 🎬 Shot Segment: Keyframes #10 to #12
+
+[Error analyzing batch: Error code: 413 - {'error': {'message': 'Request too large for model `qwen/qwen3.8-27b` in organization `org_01kqyjs1jpfwvazwnjsarzgf4t` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Requested 7219, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]
+
+---
+
+## 🎬 Shot Segment: Keyframes #13 to #15
+
+[Error analyzing batch: Error code: 413 - {'error': {'message': 'Request too large for model `qwen/qwen3.8-27b` in organization `org_01kqyjs1jpfwvazwnjsarzgf4t` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Requested 7220, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]
+
+---
+
+## 🎬 Shot Segment: Keyframes #16 to #18
+
+[Error analyzing batch: Error code: 413 - {'error': {'message': 'Request too large for model `qwen/qwen3.8-27b` in organization `org_01kqyjs1jpfwvazwnjsarzgf4t` service tier `on_demand` on input tokens per minute (ITPM): Limit 7000, Requested 7220, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}]
+
+---
+
+## 🎬 Shot Segment: Keyframes #19 to #19
+
+Hello. I have analyzed the final keyframe provided. Since this is the last frame of the sequence (Batch 7/7), it serves as the definitive "Outro" or "End Card" for the commercial.
+
+Here is the reverse-engineered breakdown of this specific shot, followed by the master prompt to recreate the final segment of the video.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. VIDEO OVERVIEW (Context for this Shot)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*   **Total Duration:** The video ends at 19.96s. This shot covers the final ~1.2 seconds.
+*   **Shot Type:** Outro / Brand Reveal.
+*   **Style:** Cinematic Lifestyle / Editorial.
+*   **Aspect Ratio:** 1:1 (Square) or 4:5 (Portrait) with white letterboxing on the sides (indicating a vertical video centered on a square canvas).
+*   **Frame Rate Feel:** Smooth, likely 24fps or 30fps.
+*   **Mood:** Warm, celebratory, romantic, and high-end.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. SHOT-BY-SHOT BREAKDOWN (Shot #19)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*   **Shot #19:** 18.7s – 19.96s
+*   **Duration:** ~1.26 seconds.
+*   **Camera Angle:** Eye-level, Medium Close-Up (MCU). The framing captures the subjects from the chest up.
+*   **Camera Movement:** Static or extremely subtle "drift" (handheld stabilization). The focus is locked on the central subject.
+*   **Camera Distance:** Medium Close-Up.
+*   **Lens Feel:** 50mm or 85mm portrait lens. This provides natural perspective and compresses the background slightly.
+*   **Lighting Setup:** Natural, soft daylight (Golden Hour or overcast). The light is diffused, creating soft shadows on the faces and highlighting the gold jewelry without harsh specular highlights.
+*   **Background:** Outdoor garden setting. Deep green foliage is visible but heavily blurred (bokeh), ensuring the subjects pop.
+*   **Focus:** Shallow Depth of Field (DOF). The central subject (bride) is sharp; the subject to the left is slightly softer; the background is completely out of focus.
+*   **Subject Action:** Two women (bride and bridesmaid/friend). The central subject is smiling warmly, looking slightly off-camera to the right. Her hand is gently resting on her chest, showcasing a large ring. The subject on the left is looking at the central subject with a smile.
+*   **Post-effects:**
+    *   **Text Overlay 1:** "For marriages crafted by you" (Serif font, white, centered).
+    *   **Text Overlay 2:** Logo "TANISHQ RIVA'AH Wedding Signatures" (Serif font, white, centered below the tagline).
+    *   **Vignette:** Subtle darkening at the edges to draw the eye to the center.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. JEWELLERY DETAILS CAPTURED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*   **Type of Jewellery:**
+    *   **Maang Tikka:** A traditional Indian forehead ornament with a central stone and a chain.
+    *   **Jhumka Earrings:** Large, traditional bell-shaped earrings.
+    *   **Necklace Set:** A multi-strand choker and long necklace (likely Kundan or Polki style).
+    *   **Ring:** A large, statement cocktail ring on the central subject's finger.
+    *   **Bangles:** A stack of gold bangles on the wrist.
+*   **Metal Color/Finish:** 22K Yellow Gold (warm, rich tone).
+*   **Gemstones:**
+    *   **Red:** Rubies or Red Garnets (visible in the earrings and necklace).
+    *   **White/Clear:** Pearls or Polki (unpolished diamonds) used for the main stones and pavé work.
+*   **Design Details:** Heavy, traditional Indian bridal jewelry. The design features intricate metalwork (filigree) and stone settings typical of the "Riva'ah" collection (which implies a focus on bridal signatures).
+*   **Key Features:** The camera emphasizes the *lifestyle* aspect—how the jewelry looks when worn and how it complements the bride's expression and attire (yellow and pink saree).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. EDITING STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*   **Transition:** This shot likely follows a hard cut or a cross-dissolve from a previous product close-up or a different angle of the bride.
+*   **Pacing:** The pacing slows down here to allow the viewer to absorb the brand message.
+*   **Music/Sound:** The music likely swells to a crescendo or resolves to a gentle, elegant piano or string note at this moment.
+*   **Text Overlays:** The text appears with a simple fade-in effect, synchronized with the final beat of the music.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. FINAL RECREATION PROMPT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Master Prompt for Video Generation AI:**
+
+> **Cinematic Lifestyle Jewelry Commercial, Final Shot.**
+>
+> **Subject:** A beautiful Indian bride in a vibrant yellow and pink silk saree, wearing heavy traditional gold bridal jewelry. She is wearing a maang tikka, large jhumka earrings with red ruby accents, a multi-layered gold choker necklace with pearls, and a large statement ring. She is smiling warmly, looking slightly off-camera to the right. To her left, slightly out of focus, is a bridesmaid in a cream outfit, also wearing gold jewelry, looking at the bride with a smile.
+>
+> **Environment:** Outdoor garden setting with lush green foliage in the background. The background is heavily blurred (bokeh) to isolate the subjects.
+>
+> **Lighting:** Soft, natural daylight, golden hour warmth. The light is diffused, creating a romantic and ethereal atmosphere. The gold jewelry catches the light subtly, showing richness without harsh glare.
+>
+> **Camera:** 50mm portrait lens, shallow depth of field. Medium close-up shot framing the subjects from the chest up. The camera is static or has a very subtle, slow drift to the right.
+>
+> **Action:** The bride gently touches her chest with her hand, showcasing the ring. She maintains a joyful, serene expression.
+>
+> **Text Overlay:** White, elegant serif text fades in at the center. Top line: "For marriages crafted by you". Bottom line: Logo "TANISHQ RIVA'AH Wedding Signatures".
+>
+> **Style & Mood:** High-end, luxurious, romantic, celebratory. Color grade is warm, with enhanced yellows and greens. The video ends with a clean, professional fade to black.
+>
+> **Technical:** 4K

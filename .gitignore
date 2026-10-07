@@ -8,6 +8,7 @@ __pycache__/
 *.webm
 uploads/
 test_scratch/
+saved_responses/
 static/keyframes/*
 !static/keyframes/.gitkeep
 

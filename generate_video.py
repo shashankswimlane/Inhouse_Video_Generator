@@ -42,10 +42,19 @@ os.environ["REPLICATE_API_TOKEN"] = replicate_token
 
 client = Groq(api_key=groq_key)
 
-# Original Scene Prompt
-raw_prompt = """A 13-year-old Jewish girl with dark hair and a yellow Star of David sewn onto her coat walks down a quiet Amsterdam street at dawn. She is overdressed for the weather, wearing multiple layers of clothing that make her movements stiff. Warm rain falls steadily, slicking the cobblestones. She carries a school satchel clutched tight against her chest. Her expression is a mix of fear and forced composure. The camera follows her from a slight distance, keeping the Star of David visible on her back. 1940s Amsterdam architecture, brick buildings with dark windows, a bicycle leaning against a wall. Ambient audio: steady rain, distant church bells, soft footsteps on wet stone. The girl murmurs to herself: "This is the beginning. Everything is about to change." Moody, desaturated color palette with warm amber tones from streetlamps reflecting on wet pavement. Shallow depth of field, slow tracking shot."""
+# Dynamic Scene Prompt from CLI arguments or user input
+if len(sys.argv) > 1:
+    prompt = " ".join(sys.argv[1:]).strip()
+else:
+    prompt = input("Enter video scene prompt: ").strip()
 
-print("\n[+] Step 1: Using Groq LLM to optimize prompt for video generation model...")
+if not prompt:
+    print("[X] Error: Prompt cannot be empty.")
+    sys.exit(1)
+
+print(f"\n[+] Input Scene Prompt:\n{prompt}\n")
+
+print("[+] Step 1: Using Groq LLM to optimize prompt for video generation model...")
 try:
     completion = client.chat.completions.create(
         model="openai/gpt-oss-120b",
@@ -56,7 +65,7 @@ try:
             },
             {
                 "role": "user",
-                "content": raw_prompt
+                "content": prompt
             }
         ]
     )
@@ -64,7 +73,7 @@ try:
     print(f"\n[+] Optimized Video Prompt:\n{optimized_prompt}\n")
 except Exception as e:
     print(f"[!] Groq optimization warning: {e}. Using raw prompt.")
-    optimized_prompt = raw_prompt
+    optimized_prompt = prompt
 
 print("[+] Step 2: Generating MP4 Video via Replicate (CogVideoX model)...")
 
